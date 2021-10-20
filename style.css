@@ -25,6 +25,9 @@
 
   h1 {
     font-family: Playfair Display, sans-serif;
+    font-size: 50px;
+    align-self: start;
+    margin-left: 40px;
   }
 
   blockquote {
