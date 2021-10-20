@@ -9,11 +9,11 @@
 
   h1 {
     text-align: center;
-    font-family: Playfair Display sans-serif;
+    font-family: Playfair Display, sans-serif;
   }
 
   blockquote {
-    font-family: Poppins sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -43,7 +43,7 @@
   }
 
   body {
-    margin: 0px;
+    margin: 0;
   }
 
   .shape-square {
@@ -56,12 +56,12 @@
     margin: 20px;
   }
 
-  blockquote:before {
+  blockquote::before {
     content: "\201c";
     font-size: 400%;
   }
 
-  blockquote:after {
+  blockquote::after {
     content: "\201D";
     font-size: 400%;
     display: inline-block;
