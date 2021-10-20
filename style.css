@@ -16,6 +16,7 @@
   header nav {
     margin: 10px;
   }
+
   .headline {
     display: flex;
     flex-direction: column;
