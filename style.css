@@ -27,6 +27,14 @@
     color: white;
     font-family: Poppins;
     background-color: #1a2236;
+    transition: solid 0s;
+    border-color: transparent;
+  }
+  header button:hover,
+  header button:active {
+    background-color: rgb(255, 255, 255);
+    color: #1a2236;
+    border-color: #1a2236;
   }
   body {
     margin: 0px;
