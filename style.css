@@ -29,7 +29,7 @@
     width: 288px;
     height: 50px;
     color: white;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     background-color: #1a2236;
     transition: solid 0s;
     border-color: transparent;
