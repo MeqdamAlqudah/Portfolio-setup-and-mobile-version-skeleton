@@ -5,7 +5,8 @@ Portfolio-setup-and-mobile-version-skeleton
 # PR
 
 basic design of first section in my portfolio
-![screenshot](./Capture.png)
+
+![screenshot](img\Capture.png)
 
 The very first siction of the mobile verstion of my portfolio
 
