@@ -1,0 +1,68 @@
+/*Small phones from 0 to 480px*/
+
+@media only screen and (max-width: 500px) {
+  /*--------------------------------------------------------------------*/
+  /*---header-*/
+  /*--------------------------------------------------------------------*/
+  h1 {
+    text-align: center;
+    font-family: Playfair Display;
+  }
+  blockquote {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+
+    color: #1a2236;
+  }
+  header button {
+    position: absolute;
+    margin-top: 20px;
+    left: 20%;
+    width: 288px;
+    height: 50px;
+    color: white;
+    font-family: Poppins;
+    background-color: #1a2236;
+  }
+  body {
+    margin: 0px;
+  }
+  .shape-square {
+    position: relative;
+    left: -45px;
+  }
+  .menu-button {
+    float: right;
+    margin: 20px;
+  }
+  blockquote:before {
+    content: "\201c";
+    font-size: 400%;
+  }
+  blockquote:after {
+    content: "\201D";
+    font-size: 400%;
+    display: inline-block;
+    position: relative;
+    bottom: -30px;
+  }
+  .elipse {
+    position: relative;
+    bottom: -70px;
+    width: 30px;
+    right: -330px;
+    right: -427px;
+    z-index: 1;
+  }
+  .rectangle {
+    position: relative;
+    transform: rotate(130deg);
+    bottom: -70px;
+    width: 100px;
+    right: -330px;
+  }
+}
