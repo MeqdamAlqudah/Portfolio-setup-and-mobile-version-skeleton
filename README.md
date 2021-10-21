@@ -9,7 +9,7 @@ basic design of first section in my portfolio :
 2- added CSS file to style the HTML File.
 3- added linter to the pull request.
 
-![screenshot](./Capture.PNG)
+![screenshot](./Capture.png)
 
 The very first siction of the mobile verstion of my portfolio
 
