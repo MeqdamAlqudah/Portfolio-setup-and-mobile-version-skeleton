@@ -19,9 +19,20 @@ The very first siction of the mobile verstion of my portfolio
 - css
 - Linter
 
-# getting started
+## Getting Started
 
-# setup sections
+-open the index.html file in chrome and see the portfolio
+
+### Setup
+
+-click the code button in the repo and then download the files as a zip file
+
+#### To get a local copy up and running follow these simple example steps.
+
+- Click the green `Code` button on the repo and copy link
+- In your local PC, open your terminal in the folder you would like to clone the project.
+- Clone the repo with the command: `git clone (copied link)`; like so: `git clone https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton.git`
+- On the terminal, navigate into the directory like so: `cd Portfolio-setup-and-mobile-version-skeleton`
 
 ### Prerequisites
 
