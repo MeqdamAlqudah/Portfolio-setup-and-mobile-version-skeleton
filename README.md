@@ -19,6 +19,10 @@ The very first siction of the mobile verstion of my portfolio
 - css
 - Linter
 
+# getting started
+
+# setup sections
+
 ### Prerequisites
 
 Chrome or any explorer
