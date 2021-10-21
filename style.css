@@ -1,0 +1,70 @@
+/*   Small phones from 0 to 480px  */
+
+/*   -------------------------------------------------------------------- */
+
+/* ---header- */
+
+/* -------------------------------------------------------------------- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.geometry {
+  width: 155px;
+  height: 100px;
+}
+
+header nav {
+  margin-top: 22px;
+  margin-right: 30px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 50px;
+  align-self: start;
+  line-height: 100%;
+  margin: 50px;
+}
+
+.headline p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin: 50px;
+}
+
+.headline button {
+  width: 80%;
+  height: 81px;
+  color: white;
+  font-family: Poppins, sans-serif;
+  background-color: #1a2236;
+  transition: solid 0s;
+  margin: auto;
+  border-color: transparent;
+}
+
+.headline button:hover,
+.headline button:active {
+  background-color: rgb(255, 255, 255);
+  color: #1a2236;
+  border-color: #1a2236;
+}
+
+body {
+  margin: 0;
+}
