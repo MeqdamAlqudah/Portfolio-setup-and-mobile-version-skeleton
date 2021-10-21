@@ -1,10 +1,13 @@
 # Project Name
 
-Portfolio-setup-and-mobile-version-skeleton
+Portfolio setup and mobile version skeleton
 
 # PR
 
-basic design of first section in my portfolio
+basic design of first section in my portfolio :
+1- added html file that contain text's and images.
+2- added CSS file to style the HTML File.
+3- added linter to the pull request.
 
 ![screenshot](./Capture.PNG)
 
@@ -14,7 +17,7 @@ The very first siction of the mobile verstion of my portfolio
 
 - Html
 - css
-- Litner
+- Linter
 
 ### Prerequisites
 
@@ -24,6 +27,6 @@ Chrome or any explorer
 
 👤 **Meqdam Al-qudah**
 
-- GitHub: https://github.com/MeqdamAlqudah
-- Twitter:https://twitter.com/MeqdamQudah
-- LinkedIn:www.linkedin.com/in/meqdam-al-qudah-7514a21b5
+- [GitHub](https://github.com/MeqdamAlqudah)
+- [Twitter](https://twitter.com/MeqdamQudah)
+- [LinkedIn](www.linkedin.com/in/meqdam-al-qudah-7514a21b5)

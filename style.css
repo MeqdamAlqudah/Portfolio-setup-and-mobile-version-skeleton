@@ -1,77 +1,71 @@
 /*   Small phones from 0 to 480px  */
 
-@media only screen and (max-width: 500px) {
-  /*   -------------------------------------------------------------------- */
+/*   -------------------------------------------------------------------- */
 
-  /* ---header- */
+/* ---header- */
 
-  /* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
 
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  header nav {
-    margin: 10px;
-  }
+.geometry {
+  width: 155px;
+  height: 100px;
+}
 
-  .headline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+header nav {
+  margin-top: 19px;
 
-  h1 {
-    font-family: Playfair Display, sans-serif;
-    font-size: 50px;
-    align-self: start;
-    margin-left: 40px;
-  }
+  margin-right: 16px;
+}
 
-  blockquote {
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.01em;
-    color: #1a2236;
-  }
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .headline button {
-    width: 288px;
-    height: 50px;
-    color: white;
-    font-family: Poppins, sans-serif;
-    background-color: #1a2236;
-    transition: solid 0s;
-    border-color: transparent;
-    margin: 20px;
-  }
+h1 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 50px;
+  align-self: start;
+  line-height: 100%;
+  margin-left: 20px;
+}
 
-  .headline button:hover,
-  .headline button:active {
-    background-color: rgb(255, 255, 255);
-    color: #1a2236;
-    border-color: #1a2236;
-  }
+.headline p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin: 20px;
+}
 
-  body {
-    margin: 0;
-  }
+.headline button {
+  width: 420px;
+  height: 81px;
+  color: white;
+  font-family: Poppins, sans-serif;
+  background-color: #1a2236;
+  transition: solid 0s;
+  border-color: transparent;
+  margin: 20px;
+}
 
-  blockquote::before {
-    content: "\201c";
-    font-size: 400%;
-  }
+.headline button:hover,
+.headline button:active {
+  background-color: rgb(255, 255, 255);
+  color: #1a2236;
+  border-color: #1a2236;
+}
 
-  blockquote::after {
-    content: "\201D";
-    font-size: 400%;
-    display: inline-block;
-    position: relative;
-    bottom: -30px;
-  }
+body {
+  margin: 0;
 }
