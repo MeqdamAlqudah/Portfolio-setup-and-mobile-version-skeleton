@@ -296,6 +296,11 @@ h3 {
 
 /* -------------------------------------------------------------------- */
 
+.About-myself {
+  display: flex;
+  flex-direction: column;
+}
+
 .first-about {
   display: flex;
   flex-direction: column;
@@ -399,12 +404,12 @@ h4 {
 
 .effect.a {
   position: relative;
-  left: 42%;
-  top: 11%;
+  left: 38%;
+  top: 3%;
 }
 
 .effect.b {
   position: relative;
-  left: 40%;
-  top: 10%;
+  left: 34%;
+  bottom: 10%;
 }
