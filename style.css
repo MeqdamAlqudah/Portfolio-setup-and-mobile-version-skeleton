@@ -41,7 +41,9 @@ header nav {
 }
 
 /* ------------------------------------------- */
+
 /* ------------------headlines-------------- */
+
 /* ----------------------------------------- */
 
 h1 {
@@ -147,7 +149,6 @@ h3 {
 
 .btn {
   background-color: #98dede;
-
   border-color: transparent;
   width: 50%;
   margin: 1%;
@@ -291,7 +292,6 @@ h3 {
 .first-about {
   display: flex;
   flex-direction: column;
-  width: 100;
   justify-content: space-between;
 }
 
@@ -381,7 +381,6 @@ h4 {
   font-family: Poppins, sans-serif;
   left: 100px;
   top: 100px;
-  font-family: sans-serif;
 }
 
 .effect.a {
