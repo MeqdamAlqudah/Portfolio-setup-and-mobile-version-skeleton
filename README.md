@@ -12,6 +12,21 @@ basic design of first section in my portfolio :
 ![screenshot](./Capture.png)
 
 The very first siction of the mobile verstion of my portfolio
+![screenshot](./Capture1.png)
+
+![screenshot](./Capture2.png)
+
+![screenshot](./Capture3.png)
+
+![screenshot](./Capture4.png)
+
+Work section for portfolio
+
+![screenshot](./Capture5.png)
+
+![screenshot](./Capture6.png)
+
+About me section
 
 ## Built With
 
