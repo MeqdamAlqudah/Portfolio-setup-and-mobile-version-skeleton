@@ -117,8 +117,14 @@ h3 {
 
 /* -------------------------------------------------------------------- */
 
-.first {
+.container {
   display: grid;
+  margin-top: 20px;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
   justify-items: start;
   margin-left: 0;
   margin-right: 0;
@@ -130,30 +136,24 @@ h3 {
 }
 
 .geometry {
-  width: 130%;
+  width: 100%;
 }
 
 .back {
-  width: 130%;
+  width: 100%;
 }
 
 .buttons {
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-self: stretch;
-  align-items: center;
-  margin-bottom: 10%;
-  justify-content: space-around;
-  margin-left: 4%;
-  width: 120%;
+  list-style: none;
+  box-sizing: border-box;
+  justify-content: space-evenly;
 }
 
 .btn {
   background-color: #98dede;
   border-color: transparent;
-  width: 50%;
-  margin: 1%;
+  width: auto;
 }
 
 .Ruby {
@@ -173,15 +173,16 @@ h3 {
   background-color: #1a2236;
   color: white;
   display: flex;
+
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-family: Poppins, sans-serif;
-  width: 80%;
-  height: 81px;
+  width: 210px;
+  height: 50px;
   border-color: white;
   margin-bottom: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
 }
 
 .btn-See span {
@@ -202,14 +203,15 @@ h3 {
 /* -------------------------------------------------------------------- */
 
 .second {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-items: start;
   margin-left: 0;
   margin-right: 0;
   justify-content: left;
   background-image: url(img/Rectangle.jpg);
   background-position: bottom;
-  background-size: 100% 50%;
+  background-size: 100% 60%;
   background-repeat: no-repeat;
 }
 
@@ -220,14 +222,15 @@ h3 {
 /* -------------------------------------------------------------------- */
 
 .third {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-items: start;
   margin-left: 0;
   margin-right: 0;
   justify-content: left;
   background-image: url(img/Rectangle.jpg);
   background-position: bottom;
-  background-size: 100% 50%;
+  background-size: 100% 60%;
   background-repeat: no-repeat;
 }
 
@@ -238,14 +241,15 @@ h3 {
 /* -------------------------------------------------------------------- */
 
 .fourth {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-items: start;
   margin-left: 0;
   margin-right: 0;
   justify-content: left;
   background-image: url(img/Rectangle.jpg);
   background-position: bottom;
-  background-size: 100% 50%;
+  background-size: 100% 60%;
   background-repeat: no-repeat;
 }
 
@@ -256,14 +260,15 @@ h3 {
 /* -------------------------------------------------------------------- */
 
 .fifth {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-items: start;
   margin-left: 0;
   margin-right: 0;
   justify-content: left;
   background-image: url(img/Rectangle.jpg);
   background-position: bottom;
-  background-size: 100% 50%;
+  background-size: 100% 60%;
   background-repeat: no-repeat;
 }
 
@@ -274,14 +279,15 @@ h3 {
 /* -------------------------------------------------------------------- */
 
 .six {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-items: start;
   margin-left: 0;
   margin-right: 0;
   justify-content: left;
   background-image: url(img/Rectangle.jpg);
   background-position: bottom;
-  background-size: 100% 50%;
+  background-size: 100% 60%;
   background-repeat: no-repeat;
 }
 
@@ -303,8 +309,15 @@ h3 {
   color: white;
   font-family: Poppins, sans-serif;
   background-color: #1a2236;
-  transition: solid 0s;
+  transition: solid 1s;
   margin: auto;
+  border-color: transparent;
+}
+
+.get-my-cv:hover,
+.get-my-cv:active {
+  background-color: rgb(255, 118, 118);
+  color: #1a2236;
   border-color: transparent;
 }
 
