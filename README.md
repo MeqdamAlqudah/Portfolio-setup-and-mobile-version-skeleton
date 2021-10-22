@@ -20,13 +20,13 @@ The very first siction of the mobile verstion of my portfolio
 
 ![screenshot](./Capture4.PNG)
 
-Work section for portfolio
+Work section for portfolio (styling using css and adding to the html)
 
 ![screenshot](./Capture5.PNG)
 
 ![screenshot](./Capture6.PNG)
 
-About me section
+About me section (styling and adding to the html)
 
 ## Built With
 
