@@ -12,19 +12,19 @@ basic design of first section in my portfolio :
 ![screenshot](./Capture.png)
 
 The very first siction of the mobile verstion of my portfolio
-![screenshot](./Capture1.png)
+![screenshot](./Capture1.PNG)
 
-![screenshot](./Capture2.png)
+![screenshot](./Capture2.PNG)
 
-![screenshot](./Capture3.png)
+![screenshot](./Capture3.PNG)
 
-![screenshot](./Capture4.png)
+![screenshot](./Capture4.PNG)
 
 Work section for portfolio
 
-![screenshot](./Capture5.png)
+![screenshot](./Capture5.PNG)
 
-![screenshot](./Capture6.png)
+![screenshot](./Capture6.PNG)
 
 About me section
 
