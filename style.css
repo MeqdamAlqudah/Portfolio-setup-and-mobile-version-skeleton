@@ -1,3 +1,5 @@
+/* for phones  402x538 */
+
 /*   -------------------------------------------------------------------- */
 
 /* ---body- */
@@ -385,12 +387,12 @@ h4 {
 
 .effect.a {
   position: relative;
-  left: 45%;
-  top: 29%;
+  left: 42%;
+  top: 11%;
 }
 
 .effect.b {
   position: relative;
-  left: 42%;
-  top: 25%;
+  left: 40%;
+  top: 10%;
 }
