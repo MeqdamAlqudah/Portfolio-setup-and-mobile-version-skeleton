@@ -508,7 +508,7 @@ h4 {
   margin-bottom: 10px;
 }
 
-.headline_2 button {
+.headline_2 form button {
   height: 50px;
   width: 285px;
   color: white;
@@ -521,8 +521,8 @@ h4 {
   margin-left: 40px;
 }
 
-.headline_2 button:hover,
-.headline_2 button:active {
+.headline_2 form button:hover,
+.headline_2 form button:active {
   background-color: rgb(255, 255, 255);
   color: #1a2236;
   border-color: #1a2236;
@@ -531,6 +531,7 @@ h4 {
 .focus-visible:focus-visible {
   outline: 0.1px solid rgb(26, 26, 26);
 }
+
 .focus-visible {
   margin-right: 20px;
 }
@@ -543,6 +544,7 @@ h4 {
   width: 400px;
   margin: 0;
 }
+
 .links button {
   background-color: #1a2236;
   border-color: transparent;
@@ -557,6 +559,7 @@ h4 {
   top: 20%;
   right: 30px;
 }
+
 .links a {
   margin: 20px;
   margin-right: 15px;
