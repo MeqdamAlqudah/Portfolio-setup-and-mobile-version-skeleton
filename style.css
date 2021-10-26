@@ -508,7 +508,7 @@ h4 {
   margin-bottom: 10px;
 }
 
-.headline_2 form button {
+.form-button {
   height: 50px;
   width: 285px;
   color: white;
@@ -521,18 +521,18 @@ h4 {
   margin-left: 40px;
 }
 
-.headline_2 form button:hover,
-.headline_2 form button:active {
+.form-button:hover,
+.form-button:active {
   background-color: rgb(255, 255, 255);
   color: #1a2236;
   border-color: #1a2236;
 }
 
-.focus-visible:focus-visible {
+.focusvisible:focus-visible {
   outline: 0.1px solid rgb(26, 26, 26);
 }
 
-.focus-visible {
+.focusvisible {
   margin-right: 20px;
 }
 
@@ -545,7 +545,7 @@ h4 {
   margin: 0;
 }
 
-.links button {
+.get_my_resume {
   background-color: #1a2236;
   border-color: transparent;
   position: relative;
