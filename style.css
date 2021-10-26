@@ -403,13 +403,13 @@ h4 {
 }
 
 .effect.a {
-  position: relative;
-  left: 38%;
-  top: 3%;
+  position: absolute;
+  left: 44%;
+  top: 60%;
 }
 
 .effect.b {
-  position: relative;
-  left: 34%;
-  bottom: 10%;
+  position: absolute;
+  left: 41%;
+  top: 58%;
 }
