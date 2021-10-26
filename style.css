@@ -528,12 +528,8 @@ h4 {
   border-color: #1a2236;
 }
 
-.focusvisible:focus-visible {
-  outline: 0.1px solid rgb(26, 26, 26);
-}
-
 .focusvisible {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .links {
