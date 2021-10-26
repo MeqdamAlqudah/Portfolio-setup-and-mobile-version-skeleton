@@ -494,6 +494,12 @@ h4 {
   align-items: center;
 }
 
+.headline_2 h2 {
+  text-align: left;
+  margin-left: -3.5rem;
+  margin-bottom: 12px;
+}
+
 .headline_2 p {
   font-family: Poppins, sans-serif;
   font-style: normal;
