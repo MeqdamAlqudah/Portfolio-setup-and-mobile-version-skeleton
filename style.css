@@ -413,3 +413,154 @@ h4 {
   left: 34%;
   bottom: 10%;
 }
+
+/*   -------------------------------------------------------------------- */
+
+/* ---contact form - */
+
+/* -------------------------------------------------------------------- */
+
+.get_started {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.get_started .geometry1 {
+  width: 40%;
+  height: 50%;
+  margin-top: 20px;
+}
+
+.form input {
+}
+.form ul {
+  list-style: none;
+}
+
+/* .user_name {
+  color: #7d7c84;
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  
+} */
+#mail {
+  background-image: url(img/Your_email.png);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  border-radius: 5px;
+  height: 50px;
+  width: 285px;
+  padding-left: 14px;
+  padding-top: 14px;
+  margin-top: 10px;
+  border-width: 0.1px;
+  border-color: #bbbabd;
+}
+
+#name {
+  background-image: url(img/Your_name.png);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  border-radius: 5px;
+  border-width: 0.1px;
+  height: 50px;
+  width: 285px;
+  padding-left: 14px;
+  padding-top: 14px;
+
+  border-color: #bbbabd;
+}
+
+#Message {
+  background-image: url(img/Enter_your_message_here....png);
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: 10px;
+  border-radius: 4px;
+  height: 80px;
+  width: 285px;
+  border-width: 0.1px;
+  margin-top: 10px;
+  padding-left: 14px;
+  padding-top: 14px;
+  border-color: #e2e1e4;
+  justify-self: center;
+  transition: solid 0.5s;
+}
+
+.headline_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline_2 p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+  margin-left: 40px;
+  text-align: left;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.headline_2 button {
+  height: 50px;
+  width: 285px;
+  color: white;
+  font-family: Poppins, sans-serif;
+  background-color: #1a2236;
+  transition: solid 0s;
+  margin: auto;
+  border-color: transparent;
+  margin-bottom: 20px;
+}
+
+.headline_2 button:hover,
+.headline_2 button:active {
+  background-color: rgb(255, 255, 255);
+  color: #1a2236;
+  border-color: #1a2236;
+}
+
+.focus-visible:focus-visible {
+  outline: 0.1px solid rgb(26, 26, 26);
+}
+.focus-visible {
+  margin-right: 20px;
+}
+
+.links {
+  background-image: url(img/Rectangle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 400px;
+  margin: 0;
+}
+.links button {
+  background-color: #1a2236;
+  border-color: transparent;
+  position: relative;
+  left: 25px;
+  top: 20%;
+}
+
+.links ul {
+  display: flex;
+  position: relative;
+  top: 20%;
+  right: 30px;
+}
+.links a {
+  margin: 20px;
+  margin-right: 20px;
+  width: 100px;
+}
