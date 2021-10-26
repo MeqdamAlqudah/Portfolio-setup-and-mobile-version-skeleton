@@ -432,8 +432,6 @@ h4 {
   margin-top: 20px;
 }
 
-.form input {
-}
 .form ul {
   list-style: none;
 }
@@ -470,7 +468,6 @@ h4 {
   width: 285px;
   padding-left: 14px;
   padding-top: 14px;
-
   border-color: #bbbabd;
 }
 
@@ -521,6 +518,7 @@ h4 {
   margin: auto;
   border-color: transparent;
   margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 .headline_2 button:hover,
@@ -561,6 +559,6 @@ h4 {
 }
 .links a {
   margin: 20px;
-  margin-right: 20px;
+  margin-right: 15px;
   width: 100px;
 }
