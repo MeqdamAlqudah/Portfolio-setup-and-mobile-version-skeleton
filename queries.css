@@ -15,6 +15,10 @@
     font-style: normal;
   }
 
+  .headline {
+    margin-top: 10%;
+  }
+
   .mobile {
     display: none;
   }
@@ -22,6 +26,7 @@
   .links {
     display: block;
     float: right;
+    height: 120px;
   }
 
   .first h2 {
@@ -97,7 +102,7 @@
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    top: 143em;
+    top: 149.5em;
     left: 50em;
   }
 
@@ -141,6 +146,7 @@
 
   .links ul {
     float: right;
+    top: 20px;
   }
 
   .links ul li {
@@ -178,7 +184,7 @@
 
   .get_my_resume {
     position: relative;
-    top: 40%;
+    top: 45px;
   }
 
   .form_ {
@@ -222,7 +228,7 @@
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    bottom: -1400px;
+    bottom: -1530px;
   }
 
   .dropup_6 {
