@@ -29,6 +29,7 @@
       width: 100%;
     }
   }
+
   .headline_2 h2 {
     font-size: 110px;
     font-style: normal;
@@ -42,6 +43,8 @@
     position: relative;
     animation-name: button;
     animation-duration: 4s;
+    width: 40%;
+    margin-left: 8%;
   }
 
   @keyframes button {
@@ -49,6 +52,7 @@
       left: -40rem;
       width: 40%;
     }
+
     100% {
       left: 0;
       width: 40%;
@@ -437,11 +441,6 @@
   h1 {
     font-size: 90px;
     margin-bottom: 0%;
-  }
-
-  .headline button {
-    width: 40%;
-    margin-left: 8%;
   }
 
   .fourth-drop-container:hover .dropup_4 {
