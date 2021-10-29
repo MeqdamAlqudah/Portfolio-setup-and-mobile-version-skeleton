@@ -35,6 +35,18 @@
   .headline {
     margin-top: 10%;
   }
+  
+  .headline button {
+    position: relative;
+    animation-name: button;
+    animation-duration: 4s;
+  }
+
+  @keyframes button {
+
+    0%{left: -40rem; width: 40% }
+    100%{left: 0; width: 40%}
+  }
 
   .mobile {
     display: none;
