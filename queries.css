@@ -1,6 +1,6 @@
 /* ipad and Desktop */
 
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 1024px) {
   html {
     overflow-x: hidden;
   }
@@ -17,13 +17,15 @@
     font-style: normal;
     font-weight: normal;
   }
+
   @keyframes slidein {
     0% {
       margin-left: 1px;
       width: 20%;
     }
+
     100% {
-      margin-left: 0px;
+      margin-left: 0;
       width: 100%;
     }
   }
@@ -193,7 +195,7 @@
 
   .geomet {
     position: relative;
-    left: 88%;
+    left: 95%;
     margin-left: 0;
     margin-right: 0;
   }
@@ -283,11 +285,11 @@
   }
 
   .dropup_3 {
-    width: 59.2%;
+    width: 58.7%;
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    bottom: -1530px;
+    bottom: -1537px;
   }
 
   .dropup_6 {
