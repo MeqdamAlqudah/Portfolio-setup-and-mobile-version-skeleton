@@ -1,24 +1,23 @@
-/*Small tablet to big tablet : from 768 to  1023*/
-@media only screen and (max-width: 1023px) {
-}
-/*Small phones to small tablets from 481px to 767px*/
-@media only screen and (max-width: 767px) {
-}
-/*Small phones from 0 to 480px*/
-@media only screen and (min-width: 382px) and (max-width: 480px) {
-}
 /*ipad and Desktop*/
+
 @media only screen and (min-width: 1023px) {
   html {
-    overflow: scroll;
+    overflow-x: hidden;
   }
+
   header.mobile,
   .geometry.mobile {
     display: none;
   }
+  .headline_2 h2 {
+    font-size: 110px;
+    font-style: normal;
+  }
+
   .mobile {
     display: none;
   }
+
   .links {
     display: block;
     float: right;
@@ -34,6 +33,7 @@
     font-weight: normal;
     color: #1a2236;
   }
+
   .Desktop {
     display: block;
   }
@@ -45,9 +45,6 @@
     z-index: 2;
     bottom: 245px;
   }
-  /* .dropup_5.Desktop.li.btn.Js {
-    z-index: 1;
-  } */
 
   .five-dropup-container {
     position: relative;
@@ -55,6 +52,7 @@
     left: 41%;
     width: 90%;
   }
+
   .five-dropup-container:hover .dropup_5.Desktop {
     display: block;
   }
@@ -65,16 +63,20 @@
     position: relative;
     bottom: 16%;
   }
+
   .third-dropup-container:hover .dropup_3 {
     display: block;
   }
+
   .second-drop-container {
     position: relative;
     top: 23%;
   }
+
   .second-drop-container:hover .dropup_2 {
     display: block;
   }
+
   .six-drop-container {
     width: 90%;
     position: relative;
@@ -93,6 +95,7 @@
     opacity: 0.98;
     top: -200px;
   }
+
   .fourth-drop-container:hover .dropup_4 {
     display: block;
   }
@@ -105,22 +108,27 @@
     top: 143em;
     left: 50em;
   }
+
   .About-myself {
     flex-direction: row-reverse;
   }
+
   .fourth-about {
     width: 100%;
     position: relative;
     margin-top: 0;
     bottom: 6%;
   }
+
   .fourth-about p {
     height: 50px;
   }
+
   .first-about {
     flex: 0.6;
     margin-left: 30px;
   }
+
   .second-about {
     grid-column: 1;
     height: 92%;
@@ -138,11 +146,11 @@
     width: 100%;
     height: 100%;
   }
-  .buttons {
-  }
+
   .links ul {
     float: right;
   }
+
   .links ul li {
     margin: 20px;
   }
@@ -167,6 +175,7 @@
     left: 0.5%;
     margin-top: 5%;
   }
+
   .about-me-container {
     display: grid;
     justify-content: right;
@@ -174,6 +183,7 @@
     margin-left: 10%;
     grid-template-columns: 120% 100%;
   }
+
   .get_my_resume {
     position: relative;
     top: 40%;
@@ -183,27 +193,38 @@
     display: grid;
     grid-template-columns: 50% 20% 50%;
   }
+
   .email_ {
     grid-column: 2;
     grid-row: 1;
   }
+
   #name {
     position: relative;
     top: 15%;
     grid-row: 1;
     grid-column: 1;
   }
+
   .message_ {
     grid-column-start: 1;
     grid-column-end: 3;
   }
+
   #Message {
-    width: 10rem;
+    width: 40rem;
   }
+
+  h3 {
+    font-style: normal;
+    font-size: 25px;
+  }
+
   .get-my-cv {
     margin-top: 9%;
     margin-right: 12%;
   }
+
   .dropup_3 {
     width: 59.2%;
     z-index: 2;
@@ -211,6 +232,7 @@
     opacity: 0.98;
     bottom: -1400px;
   }
+
   .dropup_6 {
     width: 100%;
     z-index: 2;
@@ -218,10 +240,12 @@
     opacity: 0.98;
     top: -35vh;
   }
+
   #second-geom {
     width: 540px;
     flex: 0.3;
   }
+
   #second-image {
     width: 465px;
     flex: 0.2;
@@ -234,6 +258,7 @@
     bottom: 17%;
     left: 65%;
   }
+
   #fifth-shape {
     position: relative;
     width: 150px;
@@ -241,6 +266,7 @@
     bottom: 14.5%;
     right: 2%;
   }
+
   .first,
   .second,
   .third,
@@ -249,35 +275,43 @@
   .six {
     background-image: none;
   }
+
   .fourth {
     grid-column: 2;
   }
+
   .six {
     grid-column: 2;
     grid-row-start: 1;
   }
+
   .fifth {
     grid-row-start: 2;
     grid-column: 2;
   }
+
   .second-container {
     display: flex;
     width: 242%;
   }
+
   .container_2 {
     display: grid;
     grid-template-columns: 60% 10%;
   }
+
   .first {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .first-container {
     height: 0.0005%;
     width: 100%;
 
     position: relative;
   }
+
   .dropup_1,
   .dropup_2,
   .dropup_3,
@@ -289,6 +323,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
+
   .six,
   .fourth,
   .fifth {
@@ -299,6 +334,7 @@
   .five-dropup-container:hover .dropup_5.Desktop {
     display: block;
   }
+
   .third {
     width: 800px;
     height: 465px;
@@ -306,7 +342,6 @@
 
   .dropup_1 {
     width: 100%;
-
     position: absolute;
     opacity: 0.98;
     top: 224px;
@@ -316,12 +351,14 @@
     position: relative;
     bottom: 14%;
   }
+
   #Shape-third {
     position: relative;
     left: 89%;
     height: 87.71px;
     bottom: 1.7%;
   }
+
   #fourth-image {
     position: relative;
     right: 2.5%;
@@ -331,6 +368,7 @@
   #first-image {
     z-index: 1;
   }
+
   .first-container:hover .dropup_1 {
     display: block;
   }
@@ -338,13 +376,16 @@
   #second-image {
     width: 465px;
   }
+
   #second-geom {
     width: 511px;
     height: 350px;
   }
+
   .Works {
     margin-top: 50%;
   }
+
   h1 {
     font-size: 90px;
     margin-bottom: 0%;
