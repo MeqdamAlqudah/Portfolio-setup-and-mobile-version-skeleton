@@ -11,11 +11,22 @@
   }
 
   .Desktop-head {
+    animation-name: slidein;
+    animation-duration: 4s;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: normal;
   }
-
+  @keyframes slidein {
+    0% {
+      margin-left: 1px;
+      width: 20%;
+    }
+    100% {
+      margin-left: 0px;
+      width: 100%;
+    }
+  }
   .headline_2 h2 {
     font-size: 110px;
     font-style: normal;
