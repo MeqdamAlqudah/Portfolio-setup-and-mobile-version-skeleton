@@ -39,6 +39,10 @@
     color: #1a2236;
   }
 
+  #mail {
+    background-image: none;
+  }
+
   .Desktop {
     display: block;
   }
@@ -196,17 +200,33 @@
     grid-column: 2;
     grid-row: 1;
   }
+  .name_ img {
+    width: 5%;
+  }
+  .name_ {
+    display: flex;
+    flex-direction: column;
+  }
 
   #name {
     position: relative;
-    top: 15%;
+    top: 13%;
     grid-row: 1;
     grid-column: 1;
+    background-image: none;
   }
 
   .message_ {
     grid-column-start: 1;
     grid-column-end: 3;
+  }
+
+  h5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    color: #7d7c84;
+    margin-bottom: 0;
   }
 
   #Message {
