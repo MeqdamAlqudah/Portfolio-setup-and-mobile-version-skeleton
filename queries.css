@@ -64,10 +64,6 @@
     bottom: 16%;
   }
 
-  .third-dropup-container:hover .dropup_3 {
-    display: block;
-  }
-
   .second-drop-container {
     position: relative;
     top: 23%;
@@ -94,10 +90,6 @@
     position: absolute;
     opacity: 0.98;
     top: -200px;
-  }
-
-  .fourth-drop-container:hover .dropup_4 {
-    display: block;
   }
 
   .dropup_4 {
@@ -383,5 +375,13 @@
   .headline button {
     width: 40%;
     margin-left: 8%;
+  }
+
+  .fourth-drop-container:hover .dropup_4 {
+    display: block;
+  }
+
+  .third-dropup-container:hover .dropup_3 {
+    display: block;
   }
 }
