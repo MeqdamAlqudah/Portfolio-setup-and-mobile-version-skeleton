@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /*   Small phones from 0 to 480px  */
 
 /*   -------------------------------------------------------------------- */
