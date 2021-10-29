@@ -20,7 +20,7 @@ body {
 
 /* -------------------------------------------------------------------- */
 
-header {
+header.mobile {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -31,7 +31,7 @@ header {
   height: 50%;
 }
 
-header nav {
+header.mobile nav {
   margin-top: 10%;
   margin-right: 7%;
 }
@@ -39,7 +39,6 @@ header nav {
 .headline {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 /* ------------------------------------------- */
@@ -54,6 +53,8 @@ h1 {
   align-self: start;
   line-height: 100%;
   margin: 50px;
+  font-style: normal;
+  font-weight: normal;
 }
 
 h2 {
@@ -120,6 +121,7 @@ h3 {
 .container {
   display: grid;
   margin-top: 20px;
+  width: 100%;
 }
 
 .first {
@@ -300,6 +302,10 @@ h3 {
   display: flex;
   flex-direction: column;
 }
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+}
 
 .first-about {
   display: flex;
@@ -404,14 +410,14 @@ h4 {
 
 .effect.a {
   position: relative;
-  left: 38%;
+  left: 73%;
   top: 3%;
 }
 
 .effect.b {
   position: relative;
-  left: 34%;
-  bottom: 10%;
+  left: 69%;
+  bottom: 2%;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -553,11 +559,66 @@ h4 {
   display: flex;
   position: relative;
   top: 20%;
-  right: 30px;
+  justify-content: space-between;
+  right: 3%;
 }
 
 .links a {
-  margin: 20px;
-  margin-right: 15px;
-  width: 100px;
+  margin: 1%;
+  margin-right: 3%;
+  width: 12%;
+}
+
+footer {
+  margin-right: zero;
+}
+
+.Desktop {
+  display: none;
+}
+.mobile {
+  display: block;
+}
+
+.Desktop-head {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.Desktop-head a:link,
+.Desktop-head a:visited {
+  text-decoration: none;
+  color: #1a2236;
+  transition: 0.1s;
+}
+
+.Desktop-head a:hover,
+.Desktop-head a:active {
+  border-bottom: 2px solid #1a2236;
+}
+.Desktop-head li {
+  margin-right: 5%;
+}
+
+.geom {
+  margin-top: 1%;
+  float: right;
+}
+
+.dot {
+  width: 11%;
+  position: absolute;
+  top: 130%;
+  left: 36.5%;
+}
+
+.dot1 {
+  width: 11%;
+  height: 30%;
+  margin-right: 1%;
+  margin-top: 0.5%;
+}
+
+.links li {
+  list-style: none;
 }
