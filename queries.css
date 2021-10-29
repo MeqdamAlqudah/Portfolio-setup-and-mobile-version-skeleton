@@ -1,0 +1,422 @@
+/* ipad and Desktop */
+
+@media only screen and (min-width: 1023px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  header.mobile,
+  .geometry.mobile {
+    display: none;
+  }
+
+  .Desktop-head {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .headline_2 h2 {
+    font-size: 110px;
+    font-style: normal;
+  }
+
+  .headline {
+    margin-top: 10%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .links {
+    display: block;
+    float: right;
+    height: 120px;
+  }
+
+  .first h2 {
+    transform: rotate(270deg);
+    margin-left: 0;
+    margin-bottom: 12%;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: normal;
+    color: #1a2236;
+  }
+
+  #mail {
+    background-image: none;
+  }
+
+  .Desktop {
+    display: block;
+  }
+
+  .dropup_5 {
+    width: 110%;
+    position: absolute;
+    opacity: 0.98;
+    z-index: 2;
+    bottom: 245px;
+  }
+
+  .five-dropup-container {
+    position: relative;
+    bottom: 16%;
+    left: 41%;
+    width: 90%;
+  }
+
+  .five-dropup-container:hover.five-dropup-container.dropup_5 {
+    display: block;
+  }
+
+  #fifth-image {
+    height: 240px;
+    width: 110%;
+    position: relative;
+    bottom: 16%;
+  }
+
+  .second-drop-container {
+    position: relative;
+    top: 23%;
+  }
+
+  .second-drop-container:hover .dropup_2.Desktop {
+    display: block;
+  }
+
+  .six-drop-container {
+    width: 90%;
+    position: relative;
+    left: 41%;
+    top: 20%;
+  }
+
+  .six-drop-container:hover .dropup_6.Desktop {
+    display: block;
+  }
+
+  .dropup_2 {
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    opacity: 0.98;
+    top: -200px;
+  }
+
+  .dropup_4 {
+    width: 30%;
+    z-index: 2;
+    position: absolute;
+    opacity: 0.98;
+    top: 149.5em;
+    left: 50em;
+  }
+
+  .About-myself {
+    flex-direction: row-reverse;
+  }
+
+  .fourth-about {
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+    bottom: 6%;
+  }
+
+  .fourth-about p {
+    height: 50px;
+  }
+
+  .first-about {
+    flex: 0.6;
+    margin-left: 30px;
+  }
+
+  .second-about {
+    grid-column: 1;
+    height: 92%;
+    width: 100%;
+  }
+
+  .about-images {
+    position: relative;
+    left: 40%;
+    top: 35%;
+  }
+
+  .second-about p {
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .links ul {
+    float: right;
+    top: 20px;
+  }
+
+  .links ul li {
+    margin: 20px;
+  }
+
+  .geomet {
+    position: relative;
+    left: 94%;
+  }
+
+  .get_started .geometry1 {
+    width: 15%;
+    height: 50%;
+    margin-top: 20px;
+  }
+
+  .third-about {
+    grid-column: 2;
+    width: 100%;
+    position: relative;
+    bottom: 1%;
+    height: 92.4%;
+    left: 0.5%;
+    margin-top: 5%;
+  }
+
+  .about-me-container {
+    display: grid;
+    justify-content: right;
+    grid-column: 2;
+    margin-left: 10%;
+    grid-template-columns: 120% 100%;
+  }
+
+  .get_my_resume {
+    position: relative;
+    top: 45px;
+  }
+
+  .form_ {
+    display: grid;
+    grid-template-columns: 50% 20% 50%;
+  }
+
+  .email_ {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .name_ img {
+    width: 5%;
+  }
+
+  .name_ {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #name {
+    position: relative;
+    top: 13%;
+    grid-row: 1;
+    grid-column: 1;
+    background-image: none;
+  }
+
+  .message_ {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  h5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-size: 11px;
+    color: #7d7c84;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  #Message {
+    width: 40rem;
+  }
+
+  h3 {
+    font-style: normal;
+    font-size: 25px;
+  }
+
+  .get-my-cv {
+    margin-top: 9%;
+    margin-right: 12%;
+  }
+
+  .dropup_3 {
+    width: 59.2%;
+    z-index: 2;
+    position: absolute;
+    opacity: 0.98;
+    bottom: -1530px;
+  }
+
+  .dropup_6 {
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    opacity: 0.98;
+    top: -35vh;
+  }
+
+  #fifth-geom {
+    position: relative;
+    width: 280px;
+    height: 150px;
+    bottom: 17%;
+    left: 65%;
+  }
+
+  #fifth-shape {
+    position: relative;
+    width: 150px;
+    height: 150.42px;
+    bottom: 14.5%;
+    right: 2%;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth,
+  .six {
+    background-image: none;
+  }
+
+  .fourth {
+    grid-column: 2;
+  }
+
+  .six {
+    grid-column: 2;
+    grid-row-start: 1;
+  }
+
+  .fifth {
+    grid-row-start: 2;
+    grid-column: 2;
+  }
+
+  .second-container {
+    display: flex;
+    width: 242%;
+  }
+
+  .container_2 {
+    display: grid;
+    grid-template-columns: 60% 10%;
+  }
+
+  .first {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .first-container {
+    height: 0.0005%;
+    width: 100%;
+    position: relative;
+  }
+
+  .dropup_1,
+  .dropup_2,
+  .dropup_3,
+  .dropup_4,
+  .dropup_5,
+  .dropup_6 {
+    display: none;
+    background-image: url(img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .six,
+  .fourth,
+  .fifth {
+    width: 300%;
+    height: 270px;
+  }
+
+  .five-dropup-container:hover .dropup_5.Desktop {
+    display: block;
+  }
+
+  .third {
+    width: 800px;
+    height: 465px;
+  }
+
+  .dropup_1 {
+    width: 100%;
+    position: absolute;
+    opacity: 0.98;
+    top: 224px;
+  }
+
+  #Shape-third_ {
+    position: relative;
+    bottom: 14%;
+  }
+
+  #Shape-third {
+    position: relative;
+    left: 89%;
+    height: 87.71px;
+    bottom: 1.7%;
+  }
+
+  #fourth-image {
+    position: relative;
+    right: 2.5%;
+    bottom: 3%;
+  }
+
+  #first-image {
+    z-index: 1;
+  }
+
+  .first-container:hover .dropup_1 {
+    display: block;
+  }
+
+  #second-image {
+    width: 465px;
+  }
+
+  #second-geom {
+    width: 511px;
+    height: 350px;
+  }
+
+  .Works {
+    margin-top: 50%;
+  }
+
+  h1 {
+    font-size: 90px;
+    margin-bottom: 0%;
+  }
+
+  .headline button {
+    width: 40%;
+    margin-left: 8%;
+  }
+
+  .fourth-drop-container:hover .dropup_4 {
+    display: block;
+  }
+
+  .third-dropup-container:hover .dropup_3 {
+    display: block;
+  }
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,12 +21,24 @@
     <title>Portifolio</title>
   </head>
   <body>
-    <header>
+   
+    <header class="mobile">
       <img src="img/image_geometry_1.jpg" alt="square" class="geometry1" />
       <nav>
         <img src="img/ic_menu@2x.jpg" alt="menu" class="menu-button" />
       </nav>
     </header>
+    <header class="Desktop">
+      <ul class="Desktop-head">
+        <li><a href=".headline">Hello</a></li>
+        <li><a href=".Works">Portfolio</a></li>
+        <li><a href=".About-myself">About</a></li>
+        <li><a href=".get_started">Cotact</a></li>
+      </ul>
+    </header>
+    <img src="img/image-geometry_1.png" class ="geom Desktop">
+    
+
     <section class="headline">
       <h1>Meqdam<br />Al-qudah</h1>
 
@@ -35,84 +48,94 @@
         and have a project you need coded, don’t hesitate and contact me.
       </p>
       <button>Start collaboration</button>
+      <img src="img/image_dots.png" class="dot Desktop">
     </section>
     <section class="Works">
       <div class="container">
         <div class="first">
-          <img src="img/image_geometry_2.jpg" alt="geometry" class="geometry" />
-          <h2>Projects</h2>
-          <img src="img/Rectangle21.jpg" alt="Rectangle" class="back" />
 
+          <img src="img/image_geometry_2.jpg" alt="geometry" class="geometry mobile" />
+          <h2>Projects</h2>
+          <img src="img/dots.png" class="dot1 Desktop">
+          <div class="first-container">
+          <img src="img/Rectangle21.jpg" alt="Rectangle" id="first-image" class="back" />
+          <div class="dropup_1">
           <h3>Project name goes here</h3>
           <ul class="buttons">
-            <li><button class="btn HTMLCSS">HTML/CSS</li>
-          <li><button class="btn Ruby">Ruby on Rails</li>
+            <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+          <li><button class="btn Ruby">Ruby on Rails</button></li>
             <li><button class="btn Js">JavaScript</button></li>
+            
           </ul>
           <button class="btn-See">
             <span>See this project</span>
             <img src="img/Union.svg" alt="arrow" class="arrow" />
           </button>
         </div>
+        </div>
+        </div>
+        <div class="container_2">
         <div class="second">
-          <img src="img/mac.jpg" alt="mac image" class="back" />
+          
+          <div class="second-container">
+            <div class="second-drop-container">
+          
+          
+          <div class="dropup_2 Desktop">
           <h3>Project name goes here</h3>
           <ul class="buttons">
-            <li><button class="btn HTMLCSS">HTML/CSS</li>
-            <li><button class="btn Ruby">Ruby on Rails</li>
-            <li><button class="btn Js">JavaScript</button></li>
+            <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+            <li><button class="btn Ruby">Ruby on Rails</button></li>
+              <li><button class="btn Js Desktop">+1</button></li>
           </ul>
           <button class="btn-See">
             <span>See this project</span>
             <img src="img/Union.svg" alt="arrow" class="arrow" />
           </button>
+        </div>
+        <img src="img/mac.jpg" alt="mac image" id="second-image" class="back" />
+        <div class="dropup_2 mobile">
+          <h3>Project name goes here</h3>
+          <ul class="buttons">
+            <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+            <li><button class="btn Ruby">Ruby on Rails</button></li>
+              <li><button class="btn Js mobile">JavaScript</button></li>
+              <li><button class="btn Js Desktop">+1</button></li>
+          </ul>
+          <button class="btn-See">
+            <span>See this project</span>
+            <img src="img/Union.svg" alt="arrow" class="arrow" />
+          </button>
+        </div>
+       
+        </div>
+        <img src="img/Desktop-img/image-geometry_2.png" id="second-geom" class="Desktop">
+      </div>
         </div>
         <div class="third">
-          <img src="img/third.jpg" alt="mac image" class="back" />
+          <div class="third-container">
+            <div class="third-dropup-container">
+          <div class="dropup_3 Desktop">
           <h3>Project name goes here</h3>
           <ul class="buttons">
-            <li><button class="btn HTMLCSS">HTML/CSS</li>
-            <li><button class="btn Ruby">Ruby on Rails</li>
-            <li><button class="btn Js">JavaScript</button></li>
+            <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+            <li><button class="btn Ruby">Ruby on Rails</button></li>
+              <li><button class="btn Js mobile">JavaScript</button></li>
+           
           </ul>
           <button class="btn-See">
             <span>See this project</span>
             <img src="img/Union.svg" alt="arrow" class="arrow" />
           </button>
         </div>
-        <div class="fourth">
-          <img src="img/fourth.jpg" alt="mac image" class="back" />
+        <img src="img/Desktop-img/third.png" alt="mac image" id="third-image" class="back" />
+        <div class="dropup_3">
           <h3>Project name goes here</h3>
           <ul class="buttons">
-            <li><button class="btn HTMLCSS">HTML/CSS</li>
-            <li><button class="btn Ruby">Ruby on Rails</li>
-            <li><button class="btn Js">JavaScript</button></li>
-          </ul>
-          <button class="btn-See">
-            <span>See this project</span>
-            <img src="img/Union.svg" alt="arrow" class="arrow" />
-          </button>
-        </div>
-        <div class="fifth">
-          <img src="img/fifth.jpg" alt="mac image" class="back" />
-          <h3>Project name goes here</h3>
-          <ul class="buttons">
-            <li><button class="btn HTMLCSS">HTML/CSS</li>
-            <li><button class="btn Ruby">Ruby on Rails</li>
-            <li><button class="btn Js">JavaScript</button></li>
-          </ul>
-          <button class="btn-See">
-            <span>See this project</span>
-            <img src="img/Union.svg" alt="arrow" class="arrow" />
-          </button>
-        </div>
-        <div class="six">
-          <img src="img/six.jpg" alt="mac image" class="back" />
-          <h3>Project name goes here</h3>
-          <ul class="buttons">
-            <li><button class="btn HTMLCSS">HTML/CSS</li>
-            <li><button class="btn Ruby">Ruby on Rails</li>
-            <li><button class="btn Js">JavaScript</button></li>
+            <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+            <li><button class="btn Ruby">Ruby on Rails</button></li>
+              <li><button class="btn Js ">JavaScript</button></li>
+              
           </ul>
           <button class="btn-See">
             <span>See this project</span>
@@ -120,6 +143,117 @@
           </button>
         </div>
       </div>
+      <img src="img/Desktop-img/image-geometry_4.png" id="Shape-third" class="Desktop">
+        <img src="img/Desktop-img/image-geometry_5.png" id="Shape-third_" class="Desktop">
+      </div>
+        </div>
+        <div class="fourth">
+          <div class="fourth-container">
+            <div class="fourth-drop-container">
+            <div class="dropup_4 Desktop">
+              <h3>Project name goes here</h3>
+              <ul class="buttons">
+                <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+                <li><button class="btn Ruby">Ruby on Rails</button></li>
+                <li><button class="btn Js Desktop">+1</button></li>
+              </ul>
+              <button class="btn-See">
+                <span>See this project</span>
+                <img src="img/Union.svg" alt="arrow" class="arrow" />
+              </button>
+              </div>
+          <img src="img/fourth.jpg" alt="mac image" id="fourth-image" class="back" />
+          <div class="dropup_4 mobile">
+          <h3>Project name goes here</h3>
+          <ul class="buttons">
+            <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+            <li><button class="btn Ruby">Ruby on Rails</button></li>
+            <li><button class="btn Js mobile">JavaScript</button></li>
+            <li><button class="btn Js Desktop">+1</button></li>
+          </ul>
+          <button class="btn-See">
+            <span>See this project</span>
+            <img src="img/Union.svg" alt="arrow" class="arrow" />
+          </button>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="fifth">
+          <div class="fifth-container">
+          
+          
+          <div class="five-dropup-container">
+          <div class="dropup_5 Desktop">
+          <h3>Project name goes here</h3>
+          <ul class="buttons">
+            <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+              <li><button class="btn Ruby">Ruby on Rails</button></li>
+                <li><button class="btn Js Desktop">+1</button></li>
+          </ul>
+          <button class="btn-See">
+            <span>See this project</span>
+            <img src="img/Union.svg" alt="arrow" class="arrow" />
+          </button>
+          </div>
+          <img src="img/fifth.jpg" alt="mac image" id="fifth-image" class="back" />
+          
+          <div class="dropup_5 mobile">
+            <h3>Project name goes here</h3>
+            <ul class="buttons">
+              <li><button class="btn HTMLCSS">HTML/CSS</button></li>
+              <li><button class="btn Ruby">Ruby on Rails</button></li>
+                <li><button class="btn Js mobile">JavaScript</button></li>
+                
+            </ul>
+            <button class="btn-See">
+              <span>See this project</span>
+              <img src="img/Union.svg" alt="arrow" class="arrow" />
+            </button>
+            </div>
+        </div>
+        <img src="img/Desktop-img/fifth_.png" id="fifth-geom" class="Desktop"/>
+          <img src="img/Desktop-img/Shape.png" id="fifth-shape" class="Desktop"/>
+        </div>
+
+        </div>
+     
+        <div class="six">
+          <div class="six-container">
+            <div class="six-drop-container">
+            <div class="dropup_6 Desktop">
+              <h3>Project name goes here</h3>
+              <ul class="buttons">
+                <li><button class="btn HTMLCSS">HTML/CSS</li>
+                <li><button class="btn Ruby">Ruby on Rails</li>
+                  <li><button class="btn Js Desktop">+1</button></li>
+              </ul>
+              <button class="btn-See">
+                <span>See this project</span>
+                <img src="img/Union.svg" alt="arrow" class="arrow" />
+              </button>
+            </div>
+      
+          <img src="img/six.jpg" alt="mac image" id="six-image" class="back" />
+
+          <div class="dropup_6 mobile">
+          <h3>Project name goes here</h3>
+          <ul class="buttons">
+            <li><button class="btn HTMLCSS">HTML/CSS</li>
+            <li><button class="btn Ruby">Ruby on Rails</li>
+              <li><button class="btn Js mobile">JavaScript</button></li>
+          </ul>
+          <button class="btn-See">
+            <span>See this project</span>
+            <img src="img/Union.svg" alt="arrow" class="arrow" />
+          </button>
+          
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
     </section>
     <section class="About-myself">
       <div class="first-about">
@@ -134,6 +268,7 @@
           <img src="img/Get my CV.svg" alt="Get my CV" />
         </button>
       </div>
+      <div class="about-me-container">
       <div class="second-about">
         <h4>Languages</h4>
         <ul>
@@ -153,8 +288,8 @@
           <li>RSpec</li>
           <li>Capibara</li>
           <li>Selenium</li>
-          <img src="img/second_.png" class="effect a" />
         </ul>
+        <img src="img/second_.png" class="effect a" />
       </div>
       <div class="fourth-about">
         <h4>Skills</h4>
@@ -164,15 +299,21 @@
           <li>GitHub</li>
           <li>GitLAb</li>
           <li>Terminal</li>
-          <img src="img/third_.png" class="effect b" />
         </ul>
+        <img src="img/third_.png" class="effect b" />
+      </div>
+      <div class="about-images Desktop">
+        <img src="img/Desktop-img/image_dots_with_teal.png">
+        
       </div>
     </section>
     <footer class="form">
       <div class="get_started">
-        <img src="img/image_geometry_1.jpg" alt="square" class="geometry1" />
+        <img src="img/image_geometry_1.jpg" alt="square" class="geometry1 mobile" />
+        <img src="img/Desktop-img/image-geometry_6.png" class="geometry1 Desktop">
         
       </div>
+    </div>
       <div class="headline_2">
         <h2>Get started</h2>
   
@@ -181,21 +322,25 @@
         </p>
         
           <form action="https://formspree.io/f/mnqlywkl" method="post">
-            <ul>
+            <ul class="form_">
+              
              <li class="name_">
+              <h5 class="Desktop">Your name</h5>
                <input type="text" id="name" name="user_name" class="focusvisible" maxlength="30" required>
              </li>
-             <li>
-               
+             <li class="email_">
+              <h5 class="Desktop">Your email</h5>
                <input type="email" id="mail" name="user_email" class="focusvisible" required >
              </li>
-             <li>
+             <li class="empty Desktop"></li>
+             <li class="message_">
+              <h5 class="Desktop">Message</h5>
              
                <textarea type="text" id="Message" name="user_message" class="focusvisible" maxlength="500" required></textarea>
              </li>
             </ul>
             <button class="form-button" type="submit">Start collaboration</button>
-            
+            <img src="img/Desktop-img/image-geometry_7.png" class="geomet Desktop">
            </form>
            
        
@@ -203,12 +348,12 @@
       <div class="links">
         <button class="get_my_resume"><img src="img/resume.png"></button>
         <ul>
-        <a href="https://stackoverflow.com/users/14600946/me-q" target="blank"><img src="img/ic_stackoverflow.png"></a>
-        <a href="https://github.com/MeqdamAlqudah" target="blank"><img src="img/ic_github.png"></a>
-        <a href="https://twitter.com/MeqdamQudah" target="blank"><img src="img/ic_twitter.png"></a>
-        <a href="www.linkedin.com/in/meqdam-al-qudah-7514a21b5" target="blank"><img src="img/ic_linkedin.png"></a>
-        <a href="https://medium.com/@memuq56" target="blank"><img src="img/ic_medium.png"></a>
-        <a href="https://angel.co/meqdam-mustafa-al-qudah" target="blank"><img src="img/ic_angellist.png"></a>
+        <li><a href="https://stackoverflow.com/users/14600946/me-q" target="blank"><img src="img/ic_stackoverflow.png"></a></li>
+        <li><a href="https://github.com/MeqdamAlqudah" target="blank"><img src="img/ic_github.png"></a></li>
+        <li><a href="https://twitter.com/MeqdamQudah" target="blank"><img src="img/ic_twitter.png"></a></li>
+        <li><a href="www.linkedin.com/in/meqdam-al-qudah-7514a21b5" target="blank"><img src="img/ic_linkedin.png"></a></li>
+        <li><a href="https://medium.com/@memuq56" target="blank"><img src="img/ic_medium.png"></a></li>
+        <li><a href="https://angel.co/meqdam-mustafa-al-qudah" target="blank"><img src="img/ic_angellist.png"></a></li>
       </ul>
       </div>
     </footer>
