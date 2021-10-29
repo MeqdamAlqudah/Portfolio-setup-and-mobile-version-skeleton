@@ -10,6 +10,12 @@
     display: none;
   }
 
+  .Desktop-head {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+
   .headline_2 h2 {
     font-size: 110px;
     font-style: normal;
