@@ -53,7 +53,7 @@
     width: 90%;
   }
 
-  .five-dropup-container:hover .dropup_5.Desktop {
+  .five-dropup-container:hover.five-dropup-container.dropup_5 {
     display: block;
   }
 
@@ -64,7 +64,7 @@
     bottom: 16%;
   }
 
-  .third-dropup-container:hover .dropup_3.Desktop {
+  .third-dropup-container:hover.third-dropup-container .dropup_3 {
     display: block;
   }
 
