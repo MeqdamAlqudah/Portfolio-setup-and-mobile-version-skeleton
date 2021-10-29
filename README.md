@@ -28,6 +28,12 @@ Work section for portfolio (styling using css and adding to the html)
 
 About me section (styling and adding to the html)
 
+![screenshot](./Capture_D.PNG)
+-Desktop Version The header
+
+![screenshot](./Capture_D_1.PNG)
+-Desktop Version the Work Section
+
 ## Built With
 
 - Html
