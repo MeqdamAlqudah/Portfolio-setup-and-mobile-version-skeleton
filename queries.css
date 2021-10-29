@@ -1,4 +1,4 @@
-/*ipad and Desktop*/
+/* ipad and Desktop */
 
 @media only screen and (min-width: 1023px) {
   html {
@@ -9,6 +9,7 @@
   .geometry.mobile {
     display: none;
   }
+
   .headline_2 h2 {
     font-size: 110px;
     font-style: normal;
@@ -28,7 +29,6 @@
     margin-left: 0;
     margin-bottom: 12%;
     font-size: 110px;
-
     font-style: normal;
     font-weight: normal;
     color: #1a2236;
@@ -64,7 +64,7 @@
     bottom: 16%;
   }
 
-  .third-dropup-container:hover .dropup_3 {
+  .third-dropup-container:hover .dropup_3.Desktop {
     display: block;
   }
 
@@ -73,7 +73,7 @@
     top: 23%;
   }
 
-  .second-drop-container:hover .dropup_2 {
+  .second-drop-container:hover .dropup_2.Desktop {
     display: block;
   }
 
@@ -308,7 +308,6 @@
   .first-container {
     height: 0.0005%;
     width: 100%;
-
     position: relative;
   }
 
