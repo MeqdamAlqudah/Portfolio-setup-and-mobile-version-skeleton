@@ -1,6 +1,6 @@
 /* ipad and Desktop */
 
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 1024px) {
   html {
     overflow-x: hidden;
   }
@@ -11,9 +11,23 @@
   }
 
   .Desktop-head {
+    animation-name: slidein;
+    animation-duration: 4s;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: normal;
+  }
+
+  @keyframes slidein {
+    0% {
+      margin-left: 1px;
+      width: 20%;
+    }
+
+    100% {
+      margin-left: 0;
+      width: 100%;
+    }
   }
 
   .headline_2 h2 {
@@ -23,6 +37,26 @@
 
   .headline {
     margin-top: 10%;
+  }
+
+  .headline button {
+    position: relative;
+    animation-name: button;
+    animation-duration: 4s;
+    width: 40%;
+    margin-left: 8%;
+  }
+
+  @keyframes button {
+    0% {
+      left: -40rem;
+      width: 40%;
+    }
+
+    100% {
+      left: 0;
+      width: 40%;
+    }
   }
 
   .mobile {
@@ -165,7 +199,9 @@
 
   .geomet {
     position: relative;
-    left: 94%;
+    left: 95%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .get_started .geometry1 {
@@ -253,11 +289,11 @@
   }
 
   .dropup_3 {
-    width: 59.2%;
+    width: 58.7%;
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    bottom: -1530px;
+    bottom: -1537px;
   }
 
   .dropup_6 {
@@ -405,11 +441,6 @@
   h1 {
     font-size: 90px;
     margin-bottom: 0%;
-  }
-
-  .headline button {
-    width: 40%;
-    margin-left: 8%;
   }
 
   .fourth-drop-container:hover .dropup_4 {
