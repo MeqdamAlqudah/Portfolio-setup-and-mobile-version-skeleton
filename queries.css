@@ -64,7 +64,7 @@
     bottom: 16%;
   }
 
-  .third-dropup-container:hover.third-dropup-container .dropup_3 {
+  .third-dropup-container:hover .dropup_3 {
     display: block;
   }
 
@@ -239,16 +239,6 @@
     position: absolute;
     opacity: 0.98;
     top: -35vh;
-  }
-
-  #second-geom {
-    width: 540px;
-    flex: 0.3;
-  }
-
-  #second-image {
-    width: 465px;
-    flex: 0.2;
   }
 
   #fifth-geom {
