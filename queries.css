@@ -1,3 +1,95 @@
+@media only screen and (min-width: 425px) and (max-width: 500px) {
+  .first-container.dropup_1.mobile,
+  .dropup_2.mobile,
+  .dropup_3.mobile,
+  .dropup_4.mobile,
+  .dropup_5.mobile,
+  .dropup_6.mobile {
+    display: grid;
+    justify-content: start;
+  }
+
+  .dropup_2 .buttons,
+  .dropup_1.mobile .buttons,
+  .dropup_3.mobile .buttons,
+  .dropup_4.mobile .buttons,
+  .dropup_5.mobile .buttons,
+  .dropup_6.mobile .buttons {
+    margin-left: 6px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .dropup_1.mobile .buttons li,
+  .dropup_2.mobile .buttons li,
+  .dropup_3.mobile .buttons li,
+  .dropup_4.mobile .buttons li,
+  .dropup_5.mobile .buttons li,
+  .dropup_6.mobile .buttons li {
+    margin-right: 20px;
+  }
+
+  .dropup_1 .btn-See {
+    margin-left: 29vh;
+  }
+
+  .dropup_1 h3 {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: -55px;
+  }
+
+  .dropup_3 h3 {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: -54px;
+  }
+
+  .dropup_3 .btn-See {
+    margin-left: 29vh;
+  }
+
+  .dropup_2.mobile .btn-See {
+    margin-left: -33vh;
+  }
+
+  .dropup_2.mobile h3 {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: -53px;
+  }
+
+  .dropup_4.mobile .btn-See {
+    margin-left: -34vh;
+  }
+
+  .dropup_4.mobile h3 {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: -58px;
+  }
+
+  .dropup_5.mobile .btn-See {
+    margin-left: -27vh;
+  }
+
+  .dropup_5.mobile h3 {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: -38px;
+  }
+
+  .dropup_6.mobile h3 {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: -38px;
+  }
+
+  .dropup_6.mobile .btn-See {
+    margin-left: -27vh;
+  }
+}
+
 /* ipad and Desktop */
 
 @media only screen and (min-width: 1024px) {

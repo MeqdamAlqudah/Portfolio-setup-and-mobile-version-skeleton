@@ -12,10 +12,6 @@ body {
   margin: 0;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 /*   Small phones from 0 to 480px  */
 
 /*   -------------------------------------------------------------------- */
@@ -616,7 +612,7 @@ footer {
 .dot {
   width: 11%;
   position: absolute;
-  top: 130%;
+  top: 128%;
   left: 36.5%;
 }
 
