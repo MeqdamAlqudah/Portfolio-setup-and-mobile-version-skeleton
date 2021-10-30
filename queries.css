@@ -1,6 +1,6 @@
 /* ipad and Desktop */
 
-@media only screen and (min-width: 1023px) {
+@media only screen and (min-width: 1024px) {
   html {
     overflow-x: hidden;
   }
@@ -11,9 +11,23 @@
   }
 
   .Desktop-head {
+    animation-name: slidein;
+    animation-duration: 4s;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: normal;
+  }
+
+  @keyframes slidein {
+    0% {
+      margin-left: 1px;
+      width: 20%;
+    }
+
+    100% {
+      margin-left: 0;
+      width: 100%;
+    }
   }
 
   .headline_2 h2 {
@@ -23,6 +37,26 @@
 
   .headline {
     margin-top: 10%;
+  }
+
+  .headline button {
+    position: relative;
+    animation-name: button;
+    animation-duration: 4s;
+    width: 40%;
+    margin-left: 8%;
+  }
+
+  @keyframes button {
+    0% {
+      left: -40rem;
+      width: 40%;
+    }
+
+    100% {
+      left: 0;
+      width: 40%;
+    }
   }
 
   .mobile {
@@ -69,7 +103,8 @@
   }
 
   .five-dropup-container:hover.five-dropup-container.dropup_5 {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   #fifth-image {
@@ -85,7 +120,8 @@
   }
 
   .second-drop-container:hover .dropup_2.Desktop {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .six-drop-container {
@@ -96,7 +132,8 @@
   }
 
   .six-drop-container:hover .dropup_6.Desktop {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .dropup_2 {
@@ -166,6 +203,8 @@
   .geomet {
     position: relative;
     left: 94%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .get_started .geometry1 {
@@ -253,11 +292,15 @@
   }
 
   .dropup_3 {
-    width: 59.2%;
+    width: 59%;
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    bottom: -1530px;
+    bottom: -1537px;
+  }
+
+  .dropup_3 h3 {
+    margin-right: 26%;
   }
 
   .dropup_6 {
@@ -280,7 +323,7 @@
     position: relative;
     width: 150px;
     height: 150.42px;
-    bottom: 14.5%;
+    bottom: 14%;
     right: 2%;
   }
 
@@ -330,9 +373,9 @@
 
   .dropup_1,
   .dropup_2,
-  .dropup_3,
   .dropup_4,
   .dropup_5,
+  .dropup_3,
   .dropup_6 {
     display: none;
     background-image: url(img/Rectangle.jpg);
@@ -360,7 +403,7 @@
     width: 100%;
     position: absolute;
     opacity: 0.98;
-    top: 224px;
+    top: 197px;
   }
 
   #Shape-third_ {
@@ -372,7 +415,7 @@
     position: relative;
     left: 89%;
     height: 87.71px;
-    bottom: 1.7%;
+    bottom: 0.7%;
   }
 
   #fourth-image {
@@ -386,7 +429,8 @@
   }
 
   .first-container:hover .dropup_1 {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   #second-image {
@@ -407,16 +451,15 @@
     margin-bottom: 0%;
   }
 
-  .headline button {
-    width: 40%;
-    margin-left: 8%;
-  }
-
   .fourth-drop-container:hover .dropup_4 {
     display: block;
   }
 
   .third-dropup-container:hover .dropup_3 {
     display: block;
+  }
+
+  .btn-See {
+    margin-left: 20.5%;
   }
 }
