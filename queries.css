@@ -1,6 +1,17 @@
+@media only screen and (max-width: 500px) {
+  .dropup_1.mobile,
+  .dropup_2.mobile,
+  .dropup_3.mobile,
+  .dropup_4.mobile,
+  .dropup_5.mobile,
+  .dropup_6.mobile {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* ipad and Desktop */
 
-@media only screen and (min-width: 1330px) {
+@media only screen and (min-width: 1024px) {
   html {
     overflow-x: hidden;
   }
@@ -103,7 +114,8 @@
   }
 
   .five-dropup-container:hover.five-dropup-container.dropup_5 {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   #fifth-image {
@@ -119,7 +131,8 @@
   }
 
   .second-drop-container:hover .dropup_2.Desktop {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .six-drop-container {
@@ -130,7 +143,8 @@
   }
 
   .six-drop-container:hover .dropup_6.Desktop {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .dropup_2 {
@@ -199,7 +213,7 @@
 
   .geomet {
     position: relative;
-    left: 95%;
+    left: 94%;
     margin-left: 0;
     margin-right: 0;
   }
@@ -296,6 +310,10 @@
     bottom: -1537px;
   }
 
+  .dropup_3 h3 {
+    margin-right: 26%;
+  }
+
   .dropup_6 {
     width: 100%;
     z-index: 2;
@@ -316,7 +334,7 @@
     position: relative;
     width: 150px;
     height: 150.42px;
-    bottom: 14.5%;
+    bottom: 14%;
     right: 2%;
   }
 
@@ -366,9 +384,9 @@
 
   .dropup_1,
   .dropup_2,
-  .dropup_3,
   .dropup_4,
   .dropup_5,
+  .dropup_3,
   .dropup_6 {
     display: none;
     background-image: url(img/Rectangle.jpg);
@@ -396,7 +414,7 @@
     width: 100%;
     position: absolute;
     opacity: 0.98;
-    top: 210px;
+    top: 197px;
   }
 
   #Shape-third_ {
@@ -408,7 +426,7 @@
     position: relative;
     left: 89%;
     height: 87.71px;
-    bottom: 1.7%;
+    bottom: 0.7%;
   }
 
   #fourth-image {
@@ -422,7 +440,8 @@
   }
 
   .first-container:hover .dropup_1 {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   #second-image {
@@ -449,5 +468,9 @@
 
   .third-dropup-container:hover .dropup_3 {
     display: block;
+  }
+
+  .btn-See {
+    margin-left: 20.5%;
   }
 }
