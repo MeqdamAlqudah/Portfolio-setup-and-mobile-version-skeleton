@@ -1,6 +1,6 @@
 /* ipad and Desktop */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1330px) {
   html {
     overflow-x: hidden;
   }
@@ -289,7 +289,7 @@
   }
 
   .dropup_3 {
-    width: 58.7%;
+    width: 59%;
     z-index: 2;
     position: absolute;
     opacity: 0.98;
@@ -396,7 +396,7 @@
     width: 100%;
     position: absolute;
     opacity: 0.98;
-    top: 224px;
+    top: 210px;
   }
 
   #Shape-third_ {
