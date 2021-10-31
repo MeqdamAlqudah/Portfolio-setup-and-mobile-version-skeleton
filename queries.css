@@ -25,22 +25,28 @@
   }
 
   .Desktop-head {
-    animation-name: slidein;
+    animation-name: head;
     animation-duration: 4s;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: normal;
   }
 
-  @keyframes slidein {
+  @keyframes head {
     0% {
-      margin-left: 1px;
-      width: 20%;
+      opacity: 0;
+    }
+
+    25% {
+      opacity: 0.25;
+    }
+
+    50% {
+      opacity: 0.5;
     }
 
     100% {
-      margin-left: 0;
-      width: 100%;
+      opacity: 1;
     }
   }
 
@@ -51,26 +57,14 @@
 
   .headline {
     margin-top: 10%;
+    animation-name: head;
+    animation-duration: 4s;
   }
 
   .headline button {
     position: relative;
-    animation-name: button;
-    animation-duration: 4s;
     width: 40%;
     margin-left: 8%;
-  }
-
-  @keyframes button {
-    0% {
-      left: -40rem;
-      width: 40%;
-    }
-
-    100% {
-      left: 0;
-      width: 40%;
-    }
   }
 
   .mobile {
