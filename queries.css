@@ -1,13 +1,27 @@
+/*Mobile phone*/
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
 /* ipad and Desktop */
 
 @media only screen and (min-width: 1024px) {
-  html {
-    overflow-x: hidden;
-  }
-
   header.mobile,
   .geometry.mobile {
     display: none;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
   }
 
   .Desktop-head {
