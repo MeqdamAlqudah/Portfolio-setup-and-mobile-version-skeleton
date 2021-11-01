@@ -9,6 +9,17 @@
     padding: 0;
     overflow-x: hidden;
   }
+
+  .dropup_1,
+  .dropup_3.mobile,
+  .dropup_2.mobile,
+  .dropup_4.mobile,
+  .dropup_5.mobile,
+  .dropup_6.mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* ipad and Desktop */
@@ -111,6 +122,7 @@
   .five-dropup-container:hover.five-dropup-container.dropup_5 {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   #fifth-image {
@@ -128,6 +140,7 @@
   .second-drop-container:hover .dropup_2.Desktop {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .six-drop-container {
@@ -140,6 +153,7 @@
   .six-drop-container:hover .dropup_6.Desktop {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .dropup_2 {
@@ -292,6 +306,7 @@
   h3 {
     font-style: normal;
     font-size: 25px;
+    margin-left: 55px;
   }
 
   .get-my-cv {
@@ -305,10 +320,6 @@
     position: absolute;
     opacity: 0.98;
     bottom: -1537px;
-  }
-
-  .dropup_3 h3 {
-    margin-right: 26%;
   }
 
   .dropup_6 {
@@ -399,7 +410,9 @@
   }
 
   .five-dropup-container:hover .dropup_5.Desktop {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .third {
@@ -439,6 +452,7 @@
   .first-container:hover .dropup_1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   #second-image {
@@ -460,14 +474,14 @@
   }
 
   .fourth-drop-container:hover .dropup_4 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .third-dropup-container:hover .dropup_3 {
-    display: block;
-  }
-
-  .btn-See {
-    margin-left: 20.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
