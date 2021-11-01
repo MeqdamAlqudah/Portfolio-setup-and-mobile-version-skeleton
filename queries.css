@@ -10,6 +10,7 @@
     overflow-x: hidden;
   }
 }
+
 /* ipad and Desktop */
 
 @media only screen and (min-width: 1024px) {
