@@ -484,4 +484,8 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .dropup_5.Desktop h3 {
+    margin-left: 28px;
+  }
 }
