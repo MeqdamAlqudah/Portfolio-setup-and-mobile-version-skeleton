@@ -40,6 +40,10 @@ About me section (styling and adding to the html)
 - css
 - Linter
 
+## Deployed version
+
+https://meqdamalqudah.github.io/Portfolio-setup-and-mobile-version-skeleton/
+
 ## Getting Started
 
 -open the index.html file in chrome and see the portfolio
