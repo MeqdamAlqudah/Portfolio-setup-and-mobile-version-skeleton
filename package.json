@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton.git"
+    "url": "git+https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton.git/gh-pages"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton/issues"
   },
-  "homepage": "https://MeqdamAlqudah.github.io/Portfolio"
+  "homepage": "https://MeqdamAlqudah.github.io/Portfolio",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
