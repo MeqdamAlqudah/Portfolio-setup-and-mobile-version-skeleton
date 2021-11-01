@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://MeqdamAlqudah.github.io/Meqdam-Portfolio"
+  "homepage": "https://MeqdamAlqudah.github.io/Meqdam-Portfolio",
   "dependencies": {
     "array-union": "^1.0.2",
     "array-uniq": "^1.0.3",
