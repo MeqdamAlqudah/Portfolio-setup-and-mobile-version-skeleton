@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "Portfolio setup and mobile version skeleton",
   "main": "index.js",
+ 
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://MeqdamAlqudah.github.io/Meqdam-Portfolio"
   "dependencies": {
     "array-union": "^1.0.2",
     "array-uniq": "^1.0.3",
@@ -47,12 +55,5 @@
     "trim-repeated": "^1.0.0",
     "universalify": "^0.1.2",
     "wrappy": "^1.0.2"
-  },
-  "scripts": {
-    "deploy": "gh-pages -d Portfolio-setup-and-mobile-version-skeleton"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://MeqdamAlqudah.github.io/Meqdam-Portfolio"
+  }
 }
