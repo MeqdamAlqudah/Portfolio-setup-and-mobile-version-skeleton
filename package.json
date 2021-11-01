@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-setup-and-mobile-version-skeleton",
+  "version": "1.0.0",
+  "description": "Portfolio setup and mobile version skeleton",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton/issues"
+  },
+  "homepage": "https://MeqdamAlqudah.github.io/Portfolio"
+}
