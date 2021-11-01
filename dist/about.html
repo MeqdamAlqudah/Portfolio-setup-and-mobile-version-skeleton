@@ -18,6 +18,17 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GA_MEASUREMENT_ID');
+  gtag('config', 'GA_MEASUREMENT_ID', { 'send_page_view': false });
+
+</script>
     <title>Portifolio</title>
   </head>
   <body>
@@ -59,7 +70,7 @@
           <img src="img/dots.png" class="dot1 Desktop">
           <div class="first-container">
           <img src="img/Rectangle21.jpg" alt="Rectangle" id="first-image" class="back" />
-          <div class="dropup_1 ">
+          <div class="dropup_1">
           <h3>Project name goes here</h3>
           <ul class="buttons">
             <li><button class="btn HTMLCSS">HTML/CSS</button></li>
