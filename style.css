@@ -621,24 +621,7 @@ footer {
   list-style: none;
 }
 
-.dropup_2.mobile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .buttons li {
   margin-left: -141px;
   margin-right: -135px;
-}
-
-.dropup_1,
-.dropup_3.mobile,
-.dropup_2.mobile,
-.dropup_4.mobile,
-.dropup_5.mobile,
-.dropup_6.mobile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
