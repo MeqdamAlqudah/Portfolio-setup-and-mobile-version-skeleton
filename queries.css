@@ -205,7 +205,7 @@
     top: 35%;
   }
 
-  .second-about p {
+  .second-about .effect_ {
     font-size: 100px;
     width: 100%;
     height: 100%;
@@ -290,11 +290,11 @@
     grid-column-end: 3;
   }
 
-  h5 {
+  label {
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-size: 11px;
-    color: #7d7c84;
+    font-size: 13px;
+    color: #5c5b5b;
     margin-bottom: 0;
     margin-top: 10px;
   }
