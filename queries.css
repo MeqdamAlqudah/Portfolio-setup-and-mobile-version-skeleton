@@ -502,4 +502,8 @@
   .third-about h3 {
     margin-left: -219px;
   }
+
+  .dropup_5.Desktop h3 {
+    margin-left: 28px;
+  }
 }
