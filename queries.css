@@ -491,13 +491,14 @@
     align-items: center;
   }
 
-
   .effect.a {
-    top: 60px;
+    top: 63px;
+    left: 250px;
   }
 
   .effect.b {
     top: 50px;
+    left: 312px;
   }
 
   .third-about h3 {
