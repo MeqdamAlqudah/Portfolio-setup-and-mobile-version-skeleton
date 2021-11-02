@@ -361,6 +361,7 @@ h4 {
       rgba(4, 71, 255, 0.514),
       rgba(95, 151, 224, 0.425)
     ),
+    
     url(img/first.jpg);
   background-size: 500px 100%;
   margin: 3%;
@@ -386,6 +387,7 @@ h4 {
       rgba(240, 83, 193, 0.267),
       rgba(230, 79, 167, 0.425)
     ),
+
     url(img/second.jpg);
   margin: 3%;
   background-size: 500px 100%;
@@ -399,11 +401,11 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .fourth-about {
-  background-image: 
-  linear-gradient(
+  background-image: linear-gradient(
       rgba(255, 170, 13, 0.541),
       rgba(255, 251, 0, 0.425)
     ),
+
     url(img/third.png);
   margin: 3%;
   height: 400px;
