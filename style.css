@@ -113,6 +113,7 @@ h3 {
 /* -------------------------------------------------------------------- */
 
 .container {
+  display: -ms-grid;
   display: grid;
   margin-top: 20px;
   width: 100%;
@@ -386,7 +387,7 @@ h4 {
     url(img/second.jpg),
     linear-gradient(
       rgba(179, 165, 174, 0.267),
-      rgba(230, 79, 167, 0.425)
+      rgba(218, 66, 155, 0.425)
     );
   margin: 3%;
   background-size: 500px 100%;
