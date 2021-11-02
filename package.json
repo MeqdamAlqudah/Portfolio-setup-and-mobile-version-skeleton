@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Portfolio setup and mobile version skeleton",
   "main": "index.js",
- 
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
@@ -55,5 +54,11 @@
     "trim-repeated": "^1.0.0",
     "universalify": "^0.1.2",
     "wrappy": "^1.0.2"
+  },
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
