@@ -345,8 +345,7 @@ h4 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   position: relative;
-  left: 32%;
-  top: 110px;
+  top: 22px;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -367,11 +366,13 @@ h4 {
 }
 
 .second-about .effect_ {
-  font-size: 200px;
-  height: 185px;
+  font-size: 110px;
+  height: 100px;
+  position: relative;
   text-align: right;
   color: #547da7;
   margin: 5px;
+  bottom: 30px;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -414,20 +415,20 @@ h4 {
   position: relative;
   height: 200px;
   font-family: Poppins, sans-serif;
-  left: 100px;
-  top: 100px;
+  left: 93px;
+  top: 63px;
 }
 
 .effect.a {
   position: relative;
-  left: 73%;
-  top: 3%;
+  left: 204px;
+  top: 62px;
 }
 
 .effect.b {
   position: relative;
-  left: 69%;
-  bottom: 2%;
+  left: 196px;
+  bottom: -53px;
 }
 
 /*   -------------------------------------------------------------------- */

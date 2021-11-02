@@ -30,6 +30,18 @@
     display: none;
   }
 
+  h3 {
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 55px;
+  }
+
+  .About-myself h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    margin-left: -313px;
+  }
+
   html,
   body {
     overflow-x: hidden;
@@ -206,11 +218,11 @@
   }
 
   .second-about .effect_ {
-    font-size: 100px;
     width: 100%;
     height: 100%;
     position: relative;
     right: 10px;
+    top: 1%;
   }
 
   .links ul {
@@ -301,12 +313,6 @@
 
   #Message {
     width: 40rem;
-  }
-
-  h3 {
-    font-style: normal;
-    font-size: 25px;
-    margin-left: 55px;
   }
 
   .get-my-cv {
@@ -483,5 +489,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .effect.a {
+    top: 60px;
+  }
+
+  .effect.b {
+    top: 50px;
+  }
+
+  .third-about h3 {
+    margin-left: -219px;
   }
 }
