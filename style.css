@@ -113,6 +113,7 @@ h3 {
 /* -------------------------------------------------------------------- */
 
 .container {
+  display: -ms-grid;
   display: grid;
   margin-top: 20px;
   width: 100%;
@@ -345,8 +346,7 @@ h4 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   position: relative;
-  left: 32%;
-  top: 110px;
+  top: 22px;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -356,17 +356,24 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .second-about {
-  background-image: url(img/first.jpg);
+  background-image:
+    url(img/first.jpg),
+    linear-gradient(
+      rgba(4, 71, 255, 0.514),
+      rgba(95, 151, 224, 0.425)
+    );
   background-size: 500px 100%;
   margin: 3%;
 }
 
-.second-about p {
-  font-size: 200px;
-  height: 185px;
+.second-about .effect_ {
+  font-size: 110px;
+  height: 100px;
+  position: relative;
   text-align: right;
   color: #547da7;
   margin: 5px;
+  bottom: 30px;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -376,7 +383,12 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .third-about {
-  background-image: url(img/second.jpg);
+  background-image:
+    url(img/second.jpg),
+    linear-gradient(
+      rgba(179, 165, 174, 0.267),
+      rgba(218, 66, 155, 0.425)
+    );
   margin: 3%;
   background-size: 500px 100%;
   height: 400px;
@@ -389,30 +401,35 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .fourth-about {
-  background-image: url(img/third.png);
+  background-image:
+    url(img/third.png),
+    linear-gradient(
+      rgba(255, 170, 13, 0.541),
+      rgba(255, 251, 0, 0.425)
+    );
   margin: 3%;
   height: 400px;
 }
 
 .About-myself ul {
-  color: white;
+  color: #fff;
   position: relative;
   height: 200px;
   font-family: Poppins, sans-serif;
-  left: 100px;
-  top: 100px;
+  left: 93px;
+  top: 63px;
 }
 
 .effect.a {
   position: relative;
-  left: 73%;
-  top: 3%;
+  left: 204px;
+  top: 62px;
 }
 
 .effect.b {
   position: relative;
-  left: 69%;
-  bottom: 2%;
+  left: 196px;
+  bottom: -53px;
 }
 
 /*   -------------------------------------------------------------------- */
