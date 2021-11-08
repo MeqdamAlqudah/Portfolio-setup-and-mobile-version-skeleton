@@ -647,10 +647,10 @@ footer {
 .menu {
   z-index: 10;
   width: 100%;
-  height: 101vmax;
   background-color: #fff;
   position: absolute;
-  bottom: -0.4rem;
+  height: 116vmax;
+  bottom: -5.4rem;
 }
 
 .menu-mask {
