@@ -33,12 +33,7 @@
   </head>
   <body>
    
-    <header class="mobile">
-      <img src="img/image_geometry_1.jpg" alt="square1" class="geometry1" />
-      <nav>
-        <img src="img/ic_menu@2x.jpg" alt="menu" class="menu-button" />
-      </nav>
-    </header>
+    
     <header class="Desktop">
       <ul class="Desktop-head">
         <li><a href="#headline">Hello</a></li>
@@ -47,10 +42,33 @@
         <li><a href="#get_started">Cotact</a></li>
       </ul>
     </header>
+    
     <img src="img/image-geometry_1.png" alt="Geometry1" class ="geom Desktop">
     
 
     <section class="headline" id="headline">
+      <header class="mobile">
+        <img src="img/image_geometry_1.jpg" alt="square1" class="geometry1" />
+        <nav class="menu-button-selector">
+          <img src="img/ic_menu@2x.jpg" alt="menu" class="menu-button" />
+        </nav>
+      </header>
+      <div class="menu hidden">
+  
+        <img src="img/menu-img/geomtry.png" class="geomtry-1">
+        <a href="#" class="cancel"><img src="img/menu-img/cancel.png" class="cancel-button"></a>
+        <img src="img/menu-img/head-dots.png" class="first-menu-dot">
+  
+        <ul class="menu-list">
+          <li>Hello</li>
+          <li>Portfolio</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <img src="img/menu-img/bottom-dots.png" class="second-menu-dot">
+        <img src="img/menu-img/Mask-Group.png" class="menu-mask">
+  
+      </div>
       <h1>Meqdam<br />Al-qudah</h1>
 
       <p class="blockquote">
@@ -60,7 +78,9 @@
       </p>
       <button>Start collaboration</button>
       <img  src="img/image_dots.png" alt ="dots1" class="dot Desktop">
+      
     </section>
+    
     <section class="Works" id="Works">
       <div class="container">
         <div class="first">
@@ -375,6 +395,6 @@
       </ul>
       </div>
     </footer>
-
+    <script src="menu.js"></script>
   </body>
 </html>

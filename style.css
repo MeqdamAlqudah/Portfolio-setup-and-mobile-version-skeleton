@@ -104,6 +104,7 @@ h3 {
 
 .Works {
   margin-top: 20px;
+  z-index: 2;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -641,4 +642,69 @@ footer {
 .buttons li {
   margin-left: -141px;
   margin-right: -135px;
+}
+
+/*   -------------------------------------------------------------------- */
+
+/* ---menu part - */
+
+/* -------------------------------------------------------------------- */
+
+.menu {
+  z-index: 10;
+  width: 100%;
+  height: 123vmax;
+  background-color: #fff;
+  position: absolute;
+  bottom: -7rem;
+}
+
+.menu-mask {
+  position: relative;
+  top: 11rem;
+  width: 377px;
+  left: -2px;
+}
+
+.second-menu-dot {
+  position: relative;
+  top: 31vmax;
+  left: 6rem;
+  width: 50px;
+}
+
+.cancel-button {
+  position: relative;
+  left: 161px;
+  top: -64px;
+  width: 20px;
+}
+
+.first-menu-dot {
+  position: relative;
+  left: 70px;
+  top: 65px;
+  width: 3rem;
+}
+
+.geomtry-1 {
+  width: 11rem;
+}
+
+.menu-list {
+  list-style: none;
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 108px;
+}
+
+.menu-list li {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
 }
