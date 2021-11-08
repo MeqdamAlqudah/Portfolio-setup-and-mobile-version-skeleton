@@ -1,6 +1,63 @@
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .effect.a {
+    position: relative;
+    left: 39.25rem;
+    top: 62px;
+  }
+
+  .effect.b {
+    position: relative;
+    left: 38.5rem;
+    bottom: -53px;
+  }
+
+  .second-about .effect_ {
+    top: 9px;
+    left: 80vw;
+  }
+}
+
+@media only screen and (min-width: 400px)and (max-width: 510px) {
+  .effect.a {
+    position: relative;
+    left: 303px;
+    top: 62px;
+  }
+
+  .effect.b {
+    position: relative;
+    left: 295px;
+    bottom: -53px;
+  }
+
+  .second-about .effect_ {
+    top: 9px;
+    left: 293px;
+  }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 375px) {
+  .effect.a {
+    position: relative;
+    left: 16rem;
+    top: 62px;
+  }
+
+  .effect.b {
+    position: relative;
+    left: 250px;
+    bottom: -53px;
+  }
+
+  .second-about .effect_ {
+    top: 9px;
+    left: 247px;
+  }
+}
+
 /* Mobile phone */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   html,
   body {
     width: 100%;
@@ -218,11 +275,11 @@
   }
 
   .second-about .effect_ {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     position: relative;
-    left: 180px;
-    top: 1%;
+    left: 285px;
+    top: 10px;
   }
 
   .links ul {
@@ -252,7 +309,7 @@
     width: 100%;
     position: relative;
     bottom: 1%;
-    height: 91.5%;
+    height: 90.25%;
     left: 0.5%;
     margin-top: 5%;
   }
@@ -492,8 +549,8 @@
   }
 
   .effect.a {
-    top: 63px;
-    left: 250px;
+    top: 30px;
+    left: 251px;
   }
 
   .effect.b {

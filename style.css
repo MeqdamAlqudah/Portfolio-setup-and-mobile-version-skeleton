@@ -367,13 +367,13 @@ h4 {
 }
 
 .second-about .effect_ {
-  font-size: 110px;
   height: 100px;
   position: relative;
-  text-align: right;
   color: #547da7;
   margin: 5px;
   bottom: 30px;
+  top: 6px;
+  left: 193px;
 }
 
 /*   -------------------------------------------------------------------- */
