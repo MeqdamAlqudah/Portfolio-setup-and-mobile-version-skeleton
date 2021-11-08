@@ -357,12 +357,8 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .second-about {
-  background-image:
-    url(img/first.jpg),
-    linear-gradient(
-      rgba(4, 71, 255, 0.514),
-      rgba(95, 151, 224, 0.425)
-    );
+  background-image: url(img/first.jpg),
+    linear-gradient(rgba(4, 71, 255, 0.514), rgba(95, 151, 224, 0.425));
   background-size: 500px 100%;
   margin: 3%;
 }
@@ -384,12 +380,8 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .third-about {
-  background-image:
-    url(img/second.jpg),
-    linear-gradient(
-      rgba(179, 165, 174, 0.267),
-      rgba(218, 66, 155, 0.425)
-    );
+  background-image: url(img/second.jpg),
+    linear-gradient(rgba(179, 165, 174, 0.267), rgba(218, 66, 155, 0.425));
   margin: 3%;
   background-size: 500px 100%;
   height: 400px;
@@ -402,12 +394,8 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .fourth-about {
-  background-image:
-    url(img/third.png),
-    linear-gradient(
-      rgba(255, 170, 13, 0.541),
-      rgba(255, 251, 0, 0.425)
-    );
+  background-image: url(img/third.png),
+    linear-gradient(rgba(255, 170, 13, 0.541), rgba(255, 251, 0, 0.425));
   margin: 3%;
   height: 400px;
 }
@@ -659,10 +647,10 @@ footer {
 .menu {
   z-index: 10;
   width: 100%;
-  height: 123vmax;
+  height: 101vmax;
   background-color: #fff;
   position: absolute;
-  bottom: -7rem;
+  bottom: -0.4rem;
 }
 
 .menu-mask {
@@ -674,23 +662,23 @@ footer {
 
 .second-menu-dot {
   position: relative;
-  top: 31vmax;
+  top: 25vmax;
   left: 6rem;
   width: 50px;
 }
 
 .cancel-button {
   position: relative;
-  left: 161px;
+  left: 157px;
   top: -64px;
   width: 20px;
 }
 
 .first-menu-dot {
   position: relative;
-  left: 70px;
+  left: 66px;
   top: 65px;
-  width: 3rem;
+  width: 4rem;
 }
 
 .geomtry-1 {
@@ -705,6 +693,7 @@ footer {
   align-items: center;
   position: relative;
   top: 108px;
+  right: 15px;
 }
 
 .menu-list li {
