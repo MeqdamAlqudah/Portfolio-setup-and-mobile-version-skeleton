@@ -586,6 +586,12 @@ footer {
   margin-right: 0;
 }
 
+.menu-list a:link,
+.menu-list a:visited {
+  text-decoration: none;
+  color: #1a2236;
+}
+
 .Desktop {
   display: none;
 }
