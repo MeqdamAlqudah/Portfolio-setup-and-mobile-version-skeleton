@@ -17,7 +17,7 @@
   }
 
   .menu {
-    height: 108%;
+    height: 112%;
     bottom: -3.4000000000000004rem;
   }
 
@@ -51,7 +51,7 @@
 }
 
 @media only screen and (min-width: 512px)and (max-width: 700px) {
-  .effect.a {
+  /* .effect.a {
     position: relative;
     left: 30.25rem;
     top: 62px;
@@ -66,12 +66,11 @@
   .second-about .effect_ {
     top: 9px;
     left: 76vw;
-  }
+  } */
 
   .menu {
     height: 111%;
     bottom: -3.4000000000000004rem;
-    background-size: 110px 110px;
   }
 
   .cancel-button {
@@ -105,7 +104,7 @@
 }
 
 @media only screen and (min-width: 400px)and (max-width: 510px) {
-  .effect.a {
+  /* .effect.a {
     position: relative;
     left: 303px;
     top: 62px;
@@ -120,10 +119,10 @@
   .second-about .effect_ {
     top: 9px;
     left: 293px;
-  }
+  } */
 
   .menu {
-    height: 108%;
+    height: 112%;
     bottom: -3.4000000000000004rem;
   }
 
@@ -158,7 +157,7 @@
 }
 
 @media only screen and (min-width: 322px) and (max-width: 375px) {
-  .effect.a {
+  /* .effect.a {
     position: relative;
     left: 16rem;
     top: 62px;
@@ -173,7 +172,7 @@
   .second-about .effect_ {
     top: 9px;
     left: 247px;
-  }
+  } */
 }
 
 /* Mobile phone */
@@ -437,8 +436,8 @@
     grid-column: 2;
     width: 100%;
     position: relative;
-    bottom: 1%;
-    height: 90.25%;
+    bottom: 2%;
+    height: 90%;
     left: 0.5%;
     margin-top: 5%;
   }
