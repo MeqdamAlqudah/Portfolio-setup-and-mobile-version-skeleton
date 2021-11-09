@@ -104,6 +104,7 @@ h3 {
 
 .Works {
   margin-top: 20px;
+  z-index: 2;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -113,6 +114,7 @@ h3 {
 /* -------------------------------------------------------------------- */
 
 .container {
+  display: -ms-grid;
   display: grid;
   margin-top: 20px;
   width: 100%;
@@ -345,8 +347,7 @@ h4 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   position: relative;
-  left: 32%;
-  top: 110px;
+  top: 22px;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -356,17 +357,21 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .second-about {
-  background-image: url(img/first.jpg);
+  background-image:
+    url(img/first.jpg),
+    linear-gradient(rgba(4, 71, 255, 0.514), rgba(95, 151, 224, 0.425));
   background-size: 500px 100%;
   margin: 3%;
 }
 
-.second-about p {
-  font-size: 200px;
-  height: 185px;
-  text-align: right;
+.second-about .effect_ {
+  height: 100px;
+  position: relative;
   color: #547da7;
   margin: 5px;
+  bottom: 30px;
+  top: 6px;
+  left: 193px;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -376,7 +381,9 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .third-about {
-  background-image: url(img/second.jpg);
+  background-image:
+    url(img/second.jpg),
+    linear-gradient(rgba(179, 165, 174, 0.267), rgba(218, 66, 155, 0.425));
   margin: 3%;
   background-size: 500px 100%;
   height: 400px;
@@ -389,30 +396,32 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .fourth-about {
-  background-image: url(img/third.png);
+  background-image:
+    url(img/third.png),
+    linear-gradient(rgba(255, 170, 13, 0.541), rgba(255, 251, 0, 0.425));
   margin: 3%;
   height: 400px;
 }
 
 .About-myself ul {
-  color: white;
+  color: #fff;
   position: relative;
   height: 200px;
   font-family: Poppins, sans-serif;
-  left: 100px;
-  top: 100px;
+  left: 93px;
+  top: 63px;
 }
 
 .effect.a {
   position: relative;
-  left: 73%;
-  top: 3%;
+  left: 204px;
+  top: 62px;
 }
 
 .effect.b {
   position: relative;
-  left: 69%;
-  bottom: 2%;
+  left: 196px;
+  bottom: -53px;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -568,6 +577,12 @@ footer {
   margin-right: 0;
 }
 
+.menu-list a:link,
+.menu-list a:visited {
+  text-decoration: none;
+  color: #1a2236;
+}
+
 .Desktop {
   display: none;
 }
@@ -599,14 +614,14 @@ footer {
 }
 
 .geom {
-  margin-top: 1%;
+  margin-top: 4%;
   float: right;
 }
 
 .dot {
   width: 11%;
   position: absolute;
-  top: 128%;
+  top: 49rem;
   left: 36.5%;
 }
 
@@ -624,4 +639,70 @@ footer {
 .buttons li {
   margin-left: -141px;
   margin-right: -135px;
+}
+
+/*   -------------------------------------------------------------------- */
+
+/* ---menu part - */
+
+/* -------------------------------------------------------------------- */
+
+.menu {
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  height: 116%;
+  bottom: -5.4rem;
+}
+
+.menu-mask {
+  position: relative;
+  top: 11rem;
+  width: 377px;
+  left: -2px;
+}
+
+.second-menu-dot {
+  position: relative;
+  top: 25vmax;
+  left: 6rem;
+  width: 50px;
+}
+
+.cancel-button {
+  position: relative;
+  left: 157px;
+  top: -64px;
+  width: 20px;
+}
+
+.first-menu-dot {
+  position: relative;
+  left: 66px;
+  top: 65px;
+  width: 4rem;
+}
+
+.geomtry-1 {
+  width: 11rem;
+}
+
+.menu-list {
+  list-style: none;
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 108px;
+  right: 15px;
+}
+
+.menu-list li {
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
 }

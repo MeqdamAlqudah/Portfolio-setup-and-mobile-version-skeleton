@@ -1,6 +1,63 @@
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .effect.a {
+    position: relative;
+    left: 39.25rem;
+    top: 62px;
+  }
+
+  .effect.b {
+    position: relative;
+    left: 38.5rem;
+    bottom: -53px;
+  }
+
+  .second-about .effect_ {
+    top: 9px;
+    left: 80vw;
+  }
+}
+
+@media only screen and (min-width: 400px)and (max-width: 510px) {
+  .effect.a {
+    position: relative;
+    left: 303px;
+    top: 62px;
+  }
+
+  .effect.b {
+    position: relative;
+    left: 295px;
+    bottom: -53px;
+  }
+
+  .second-about .effect_ {
+    top: 9px;
+    left: 293px;
+  }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 375px) {
+  .effect.a {
+    position: relative;
+    left: 16rem;
+    top: 62px;
+  }
+
+  .effect.b {
+    position: relative;
+    left: 250px;
+    bottom: -53px;
+  }
+
+  .second-about .effect_ {
+    top: 9px;
+    left: 247px;
+  }
+}
+
 /* Mobile phone */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   html,
   body {
     width: 100%;
@@ -30,11 +87,31 @@
     display: none;
   }
 
+  h3 {
+    font-style: normal;
+    font-size: 25px;
+    margin-left: 55px;
+  }
+
+  .About-myself h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    margin-left: -313px;
+  }
+
   html,
   body {
     overflow-x: hidden;
     width: 100%;
     margin: 0;
+  }
+
+  header.Desktop {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    z-index: 16;
   }
 
   .Desktop-head {
@@ -169,7 +246,7 @@
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    top: 149.5em;
+    top: 146em;
     left: 50em;
   }
 
@@ -205,12 +282,12 @@
     top: 35%;
   }
 
-  .second-about p {
-    font-size: 100px;
-    width: 100%;
-    height: 100%;
+  .second-about .effect_ {
+    width: 30%;
+    height: 30%;
     position: relative;
-    right: 10px;
+    left: 285px;
+    top: 10px;
   }
 
   .links ul {
@@ -240,7 +317,7 @@
     width: 100%;
     position: relative;
     bottom: 1%;
-    height: 91.5%;
+    height: 90.25%;
     left: 0.5%;
     margin-top: 5%;
   }
@@ -290,23 +367,17 @@
     grid-column-end: 3;
   }
 
-  h5 {
+  label {
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-size: 11px;
-    color: #7d7c84;
+    font-size: 13px;
+    color: #5c5b5b;
     margin-bottom: 0;
     margin-top: 10px;
   }
 
   #Message {
     width: 40rem;
-  }
-
-  h3 {
-    font-style: normal;
-    font-size: 25px;
-    margin-left: 55px;
   }
 
   .get-my-cv {
@@ -483,6 +554,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .effect.a {
+    top: 30px;
+    left: 251px;
+  }
+
+  .effect.b {
+    top: 50px;
+    left: 312px;
+  }
+
+  .third-about h3 {
+    margin-left: -219px;
   }
 
   .dropup_5.Desktop h3 {
