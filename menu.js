@@ -19,3 +19,4 @@ document.querySelector('.portfolio').addEventListener('click', closeMenu);
 document.querySelector('.About').addEventListener('click', closeMenu);
 document.querySelector('.contact').addEventListener('click', closeMenu);
 document.addEventListener('keydown', xButton);
+document.querySelector('.menu').style.width = screen.width;
