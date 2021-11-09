@@ -54,6 +54,7 @@
   .menu {
     height: 111%;
     bottom: -3.4000000000000004rem;
+    background-size: 110px 110px;
   }
 
   .cancel-button {
