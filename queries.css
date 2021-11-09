@@ -15,6 +15,11 @@
     top: 9px;
     left: 80vw;
   }
+
+  .menu {
+    height: 78vmax;
+    bottom: -3.4000000000000004rem;
+  }
 }
 
 @media only screen and (min-width: 400px)and (max-width: 510px) {
