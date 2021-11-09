@@ -653,10 +653,11 @@ footer {
 
 .menu {
   z-index: 10;
+  display: grid;
   width: 100%;
   background-color: #fff;
   position: absolute;
-  height: 120%;
+  height: 119%;
   bottom: -5.4rem;
 }
 
@@ -672,6 +673,7 @@ footer {
   top: 25vmax;
   left: 6rem;
   width: 50px;
+  align-self: flex-start;
 }
 
 .cancel-button {
@@ -679,6 +681,7 @@ footer {
   left: 157px;
   top: -64px;
   width: 20px;
+  align-self: flex-end;
 }
 
 .first-menu-dot {
@@ -690,6 +693,7 @@ footer {
 
 .geomtry-1 {
   width: 11rem;
+  align-self: flex-start;
 }
 
 .menu-list {
@@ -709,4 +713,13 @@ footer {
 
 .hidden {
   display: none;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+  bottom: -39px;
 }
