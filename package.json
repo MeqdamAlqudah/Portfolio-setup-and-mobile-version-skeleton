@@ -4,7 +4,7 @@
   "description": "Portfolio setup and mobile version skeleton",
   "main": "index.js",
   "scripts": {
-    "deploy": "main -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
