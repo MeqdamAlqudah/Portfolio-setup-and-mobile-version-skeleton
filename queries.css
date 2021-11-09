@@ -51,6 +51,23 @@
 }
 
 @media only screen and (min-width: 512px)and (max-width: 700px) {
+  .effect.a {
+    position: relative;
+    left: 30.25rem;
+    top: 62px;
+  }
+
+  .effect.b {
+    position: relative;
+    left: 29.5rem;
+    bottom: -53px;
+  }
+
+  .second-about .effect_ {
+    top: 9px;
+    left: 76vw;
+  }
+
   .menu {
     height: 111%;
     bottom: -3.4000000000000004rem;
