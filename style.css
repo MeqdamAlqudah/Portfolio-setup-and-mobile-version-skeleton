@@ -95,12 +95,6 @@ h3 {
   color: #1a2236;
 }
 
-.second-buttons button:hover,
-.second-buttons button:active {
-  background-color: #1a2236;
-  color: #fff;
-}
-
 .first-buttons button {
   background-color: white;
   border-style: solid;
@@ -118,6 +112,12 @@ h3 {
   transition: solid 0s;
   margin: auto;
   border-color: transparent;
+}
+
+.second-buttons button:hover,
+.second-buttons button:active {
+  background-color: #1a2236;
+  color: #fff;
 }
 
 .headline button:hover,
@@ -389,7 +389,8 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .second-about {
-  background-image: url(img/first.jpg),
+  background-image:
+    url(img/first.jpg),
     linear-gradient(rgba(4, 71, 255, 0.514), rgba(95, 151, 224, 0.425));
   background-size: 500px 100%;
   margin: 3%;
@@ -413,7 +414,8 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .third-about {
-  background-image: url(img/second.jpg),
+  background-image:
+    url(img/second.jpg),
     linear-gradient(rgba(179, 165, 174, 0.267), rgba(218, 66, 155, 0.425));
   margin: 3%;
   background-size: 500px 100%;
@@ -428,7 +430,8 @@ h4 {
 /* -------------------------------------------------------------------- */
 
 .fourth-about {
-  background-image: url(img/third.png),
+  background-image:
+    url(img/third.png),
     linear-gradient(rgba(255, 170, 13, 0.541), rgba(255, 251, 0, 0.425));
   margin: 3%;
   height: 400px;
