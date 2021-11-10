@@ -78,6 +78,31 @@ h3 {
   margin: 50px;
 }
 
+.second-buttons a {
+  text-decoration: none;
+}
+
+.second-buttons button {
+  margin-top: 10px;
+  margin-right: 53px;
+  width: 260px;
+  padding: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a2236;
+}
+
+.first-buttons button {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 4px;
+}
+
 .headline button {
   width: 80%;
   height: 81px;
@@ -722,4 +747,213 @@ footer {
   justify-self: center;
   position: relative;
   bottom: -39px;
+}
+
+/*   -------------------------------------------------------------------- */
+
+/* ---popup-1 menu - */
+
+/* -------------------------------------------------------------------- */
+
+.popup-1 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.first-buttons {
+  display: flex;
+  font-size: 14px;
+  list-style: none;
+  font-family: Poppins, sans-serif;
+  padding-top: 0;
+  padding-right: 45px;
+  margin-bottom: -20px;
+}
+
+.first-buttons li {
+  margin-right: 10px;
+}
+
+.popup-conatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cancel-1 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+h5 {
+  position: relative;
+  font-family: Poppins, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #1a2236;
+  top: 1px;
+  left: -22px;
+}
+
+.img-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: -3px;
+  margin-right: 38px;
+}
+
+.img-list img {
+  width: 72px;
+  margin-left: -2px;
+}
+
+.vector-1 {
+  z-index: 15;
+  position: relative;
+  top: 119px;
+  width: 12px;
+  right: 127px;
+}
+
+.vector-2 {
+  z-index: 15;
+  position: relative;
+  top: 100px;
+  width: 12px;
+  left: 131px;
+}
+
+.popup-1 p {
+  margin: 30px;
+  font-family: Poppins, sans-serif;
+}
+
+.second-buttons {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/*   -------------------------------------------------------------------- */
+
+/* ---popup-2 menu - */
+
+/* -------------------------------------------------------------------- */
+
+.popup-2 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-2 p {
+  margin: 30px;
+  font-family: Poppins, sans-serif;
+}
+
+.cancel-2 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/*   -------------------------------------------------------------------- */
+
+/* ---popup-3 menu - */
+
+/* -------------------------------------------------------------------- */
+
+.popup-3 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-3 p {
+  margin: 30px;
+  font-family: Poppins, sans-serif;
+}
+
+.cancel-3 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/*   -------------------------------------------------------------------- */
+
+/* ---popup-4 menu - */
+
+/* -------------------------------------------------------------------- */
+
+.popup-4 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-4 p {
+  margin: 30px;
+  font-family: Poppins, sans-serif;
+}
+
+.cancel-4 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/*   -------------------------------------------------------------------- */
+
+/* ---popup-5 menu - */
+
+/* -------------------------------------------------------------------- */
+
+.popup-5 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-5 p {
+  margin: 30px;
+  font-family: Poppins, sans-serif;
+}
+
+.cancel-5 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/*   -------------------------------------------------------------------- */
+
+/* ---popup-6 menu - */
+
+/* -------------------------------------------------------------------- */
+
+.popup-6 {
+  background-color: white;
+  z-index: 10;
+  position: absolute;
+  top: -2px;
+}
+
+.popup-6 p {
+  margin: 30px;
+  font-family: Poppins, sans-serif;
+}
+
+.cancel-6 {
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
 }
