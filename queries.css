@@ -15,7 +15,7 @@
     top: 9px;
     left: 80vw;
   }
-
+/
   .menu {
     height: 112%;
     bottom: -3.4000000000000004rem;
@@ -67,26 +67,31 @@
     top: 9px;
     left: 76vw;
   } */
+  .geomtry-1 {
+    position: relative;
+    left: -7vh;
+  }
 
   /*
   .menu {
     height: 111%;
     bottom: -3.4000000000000004rem;
   }
-
+*/
   .cancel-button {
-    left: 365px;
-    top: -64px;
-    width: 21pt;
+    left: 215px;
+    top: -80px;
+    width: 36px;
   }
 
   .menu-mask {
-    top: 12rem;
+    top: 19rem;
     width: 534px;
     left: 4px;
     height: 7rem;
   }
 
+  /*
   .second-menu-dot {
     top: 11vmax;
     left: 12rem;
@@ -102,6 +107,12 @@
   .menu-list {
     font-size: 28px;
   } */
+
+  .menu-container {
+    top: 4rem;
+    width: 546px;
+    left: 28px;
+  }
 }
 
 @media only screen and (min-width: 400px)and (max-width: 510px) {
@@ -235,6 +246,10 @@
     z-index: 16;
   }
 
+  .second-buttons {
+    flex-direction: row;
+  }
+
   .Desktop-head {
     animation-name: head;
     animation-duration: 4s;
@@ -268,10 +283,15 @@
     animation-duration: 4s;
   }
 
+  .headline p {
+    margin-left: 7vmax;
+    margin-right: 18vmax;
+  }
+
   .headline button {
     position: relative;
     width: 40%;
-    margin-left: 8%;
+    margin-left: 7vmax;
   }
 
   .mobile {
@@ -300,6 +320,18 @@
 
   .Desktop {
     display: block;
+  }
+
+  .third-buttons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    top: -7vmax;
+    position: relative;
+  }
+
+  .third-buttons li {
+    margin: 13vmax;
   }
 
   .dropup_5 {
@@ -400,7 +432,7 @@
   .about-images {
     position: relative;
     left: 40%;
-    top: 35%;
+    top: 4vmax;
   }
 
   .second-about .effect_ {
@@ -693,5 +725,144 @@
 
   .dropup_5.Desktop h3 {
     margin-left: 28px;
+  }
+
+  .popup-1 {
+    background-color: #1a2236;
+    opacity: 0.98;
+    width: 99vmax;
+    z-index: 30;
+    height: 138vmax;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-conatiner {
+    background-color: white;
+    width: 79rem;
+    position: absolute;
+    top: 4vmax;
+    height: 129vmax;
+  }
+
+  h5 {
+    font-size: 50px;
+    left: -283px;
+  }
+
+  .popupimgmac {
+    width: 85vmax;
+  }
+
+  .img-list img {
+    width: 293px;
+    margin-left: -7px;
+    margin-top: -8px;
+    position: relative;
+    left: 2vh;
+  }
+
+  .first-buttons {
+    width: 72rem;
+    margin-bottom: -89px;
+    margin-top: -3vmax;
+  }
+
+  .first-buttons button {
+    width: 189px;
+    margin-right: 44px;
+    padding: 16px;
+  }
+
+  .vector-1 {
+    width: 3vmax;
+    top: 76vh;
+    right: 88vh;
+  }
+
+  .vector-2 {
+    width: 3vmax;
+    top: 64vh;
+    left: 88vh;
+  }
+
+  .Works p {
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-top: 3rem;
+  }
+
+  .popup-2 {
+    background-color: #1a2236;
+    opacity: 0.98;
+    width: 99vmax;
+    z-index: 30;
+    height: 140vmax;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-3 {
+    background-color: #1a2236;
+    opacity: 0.98;
+    width: 99vmax;
+    z-index: 30;
+    height: 140vmax;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-4 {
+    background-color: #1a2236;
+    opacity: 0.98;
+    width: 99vmax;
+    z-index: 30;
+    height: 140vmax;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+  }
+
+  .popup-5 {
+    background-color: #1a2236;
+    opacity: 0.98;
+    width: 99vmax;
+    z-index: 30;
+    height: 140vmax;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+  }
+
+  .popup-6 {
+    background-color: #1a2236;
+    opacity: 0.98;
+    width: 99vmax;
+    z-index: 30;
+    height: 140vmax;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: center;
   }
 }
