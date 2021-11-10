@@ -1,3 +1,4 @@
+/* eslint-disable func-names */
 const closeMenu = function () {
   document.querySelector('.menu').classList.add('hidden');
 };
@@ -181,7 +182,7 @@ document.querySelector('#See6').addEventListener('click', openPopup6);
 document.querySelector('#SeeD6').addEventListener('click', openPopup2);
 document.querySelector('.cancel-6').addEventListener('click', closePopup6);
 // Storing the Data
-const text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.';
+const text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\r\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.';
 const storeObj = {
   1: {
     name: 'Project name goes here', description: text, featuredImg: ['img/Popup-menu/Mac-pop-2.png', 'img/Popup-menu/Mac-pop-3.png', 'img/Popup-menu/Mac-pop-4.png', 'img/Popup-menu/Mac-pop-5.png'], technologies: ['HTML/Css', 'Ruby on Rails', 'JavaScript'], live: '#', source: '#',
