@@ -216,3 +216,17 @@ for (let i = 0; i < objValues.length; i += 1) {
   document.querySelector(`.popup-${i + 1} .live`).setAttribute('href', storeObj[i + 1].live);
   document.querySelector(`.popup-${i + 1} .source`).setAttribute('href', storeObj[i + 1].source);
 }
+/* Validate-contact-form */
+const email = document.getElementById('mail');
+const form = document.getElementById('form');
+const errorElement = document.getElementById('error');
+
+// Validate-contact-form function
+const errorPresent = function (e) {
+  if (email.value !== email.value.toLowerCase()) {
+    errorElement.innerText = "Please enter the email with lower case letter's";
+  }
+  e.preventDefault();
+};
+
+form.addEventListener('submit', errorPresent);

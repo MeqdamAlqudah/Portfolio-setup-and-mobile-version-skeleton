@@ -114,8 +114,8 @@ h3 {
   border-color: transparent;
 }
 
-.second-buttons button :hover,
-.second-buttons button :active {
+.second-buttons button:hover,
+.second-buttons button:active {
   background-color: #1a2236;
   color: #fff;
 }
@@ -962,4 +962,10 @@ h5 {
   align-self: flex-end;
   margin-top: 20px;
   margin-right: 20px;
+}
+
+#error {
+  color: red;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
 }
