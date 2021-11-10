@@ -114,8 +114,8 @@ h3 {
   border-color: transparent;
 }
 
-.second-buttons button:hover,
-.second-buttons button:active {
+.second-buttons button :hover,
+.second-buttons button :active {
   background-color: #1a2236;
   color: #fff;
 }
