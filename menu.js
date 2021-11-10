@@ -5,13 +5,16 @@ const closeMenu = function () {
 const openMenu = function () {
   document.querySelector('.menu').classList.remove('hidden');
 };
-
+const lastWidth = document.querySelector('body').style.width;
 // popup1
 const openPopup1 = function () {
   document.querySelector('.popup-1').classList.remove('hidden');
   document.querySelector('.About-myself').classList.add('hidden');
   document.querySelector('.form').classList.add('hidden');
   document.querySelector('.headline').classList.add('hidden');
+  document.querySelector('.Desktop-head').classList.add('hidden');
+  document.querySelector('.geom').classList.add('hidden');
+  document.querySelector('body').style.width = '20vmax';
 };
 
 const closePopup1 = function () {
@@ -19,6 +22,9 @@ const closePopup1 = function () {
   document.querySelector('.About-myself').classList.remove('hidden');
   document.querySelector('.form').classList.remove('hidden');
   document.querySelector('.headline').classList.remove('hidden');
+  document.querySelector('.Desktop-head').classList.remove('hidden');
+  document.querySelector('.geom').classList.remove('hidden');
+  document.querySelector('body').style.width = lastWidth;
 };
 
 // popup2
@@ -28,6 +34,9 @@ const openPopup2 = function () {
   document.querySelector('.About-myself').classList.add('hidden');
   document.querySelector('.form').classList.add('hidden');
   document.querySelector('.headline').classList.add('hidden');
+  document.querySelector('.Desktop-head').classList.add('hidden');
+  document.querySelector('.geom').classList.add('hidden');
+  document.querySelector('body').style.width = '20vmax';
 };
 
 const closePopup2 = function () {
@@ -35,6 +44,9 @@ const closePopup2 = function () {
   document.querySelector('.About-myself').classList.remove('hidden');
   document.querySelector('.form').classList.remove('hidden');
   document.querySelector('.headline').classList.remove('hidden');
+  document.querySelector('.Desktop-head').classList.remove('hidden');
+  document.querySelector('.geom').classList.remove('hidden');
+  document.querySelector('body').style.width = lastWidth;
 };
 
 // popup3
@@ -44,6 +56,9 @@ const openPopup3 = function () {
   document.querySelector('.About-myself').classList.add('hidden');
   document.querySelector('.form').classList.add('hidden');
   document.querySelector('.headline').classList.add('hidden');
+  document.querySelector('.Desktop-head').classList.add('hidden');
+  document.querySelector('.geom').classList.add('hidden');
+  document.querySelector('body').style.width = '20vmax';
 };
 
 const closePopup3 = function () {
@@ -51,6 +66,9 @@ const closePopup3 = function () {
   document.querySelector('.About-myself').classList.remove('hidden');
   document.querySelector('.form').classList.remove('hidden');
   document.querySelector('.headline').classList.remove('hidden');
+  document.querySelector('.Desktop-head').classList.remove('hidden');
+  document.querySelector('.geom').classList.remove('hidden');
+  document.querySelector('body').style.width = lastWidth;
 };
 
 // popup4
@@ -60,6 +78,9 @@ const openPopup4 = function () {
   document.querySelector('.About-myself').classList.add('hidden');
   document.querySelector('.form').classList.add('hidden');
   document.querySelector('.headline').classList.add('hidden');
+  document.querySelector('.Desktop-head').classList.add('hidden');
+  document.querySelector('.geom').classList.add('hidden');
+  document.querySelector('body').style.width = '20vmax';
 };
 
 const closePopup4 = function () {
@@ -67,6 +88,9 @@ const closePopup4 = function () {
   document.querySelector('.About-myself').classList.remove('hidden');
   document.querySelector('.form').classList.remove('hidden');
   document.querySelector('.headline').classList.remove('hidden');
+  document.querySelector('.Desktop-head').classList.remove('hidden');
+  document.querySelector('.geom').classList.remove('hidden');
+  document.querySelector('body').style.width = lastWidth;
 };
 
 // popup5
@@ -76,6 +100,9 @@ const openPopup5 = function () {
   document.querySelector('.About-myself').classList.add('hidden');
   document.querySelector('.form').classList.add('hidden');
   document.querySelector('.headline').classList.add('hidden');
+  document.querySelector('.Desktop-head').classList.add('hidden');
+  document.querySelector('.geom').classList.add('hidden');
+  document.querySelector('body').style.width = '20vmax';
 };
 
 const closePopup5 = function () {
@@ -83,6 +110,9 @@ const closePopup5 = function () {
   document.querySelector('.About-myself').classList.remove('hidden');
   document.querySelector('.form').classList.remove('hidden');
   document.querySelector('.headline').classList.remove('hidden');
+  document.querySelector('.Desktop-head').classList.remove('hidden');
+  document.querySelector('.geom').classList.remove('hidden');
+  document.querySelector('body').style.width = lastWidth;
 };
 
 // popup6
@@ -92,6 +122,9 @@ const openPopup6 = function () {
   document.querySelector('.About-myself').classList.add('hidden');
   document.querySelector('.form').classList.add('hidden');
   document.querySelector('.headline').classList.add('hidden');
+  document.querySelector('.Desktop-head').classList.add('hidden');
+  document.querySelector('.geom').classList.add('hidden');
+  document.querySelector('body').style.width = '20vmax';
 };
 
 const closePopup6 = function () {
@@ -99,6 +132,9 @@ const closePopup6 = function () {
   document.querySelector('.About-myself').classList.remove('hidden');
   document.querySelector('.form').classList.remove('hidden');
   document.querySelector('.headline').classList.remove('hidden');
+  document.querySelector('.Desktop-head').classList.remove('hidden');
+  document.querySelector('.geom').classList.remove('hidden');
+  document.querySelector('body').style.width = lastWidth;
 };
 const xButton = function (x) {
   if (x.keyCode === 88) {

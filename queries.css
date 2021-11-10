@@ -321,6 +321,8 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    top: -7vmax;
+    position: relative;
   }
 
   .third-buttons li {
@@ -425,7 +427,7 @@
   .about-images {
     position: relative;
     left: 40%;
-    top: 35%;
+    top: 4vmax;
   }
 
   .second-about .effect_ {
@@ -725,7 +727,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 184vmax;
+    height: 138vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -736,8 +738,8 @@
     background-color: white;
     width: 79rem;
     position: absolute;
-    top: 13vmax;
-    height: 150vmax;
+    top: 4vmax;
+    height: 129vmax;
   }
 
   h5 {
@@ -759,6 +761,8 @@
 
   .first-buttons {
     width: 72rem;
+    margin-bottom: -89px;
+    margin-top: -3vmax;
   }
 
   .first-buttons button {
@@ -790,7 +794,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 184vmax;
+    height: 140vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -802,7 +806,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 184vmax;
+    height: 140vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -814,7 +818,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 184vmax;
+    height: 140vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -827,7 +831,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 184vmax;
+    height: 140vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -840,7 +844,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 184vmax;
+    height: 140vmax;
     position: absolute;
     display: flex;
     justify-content: center;
