@@ -283,10 +283,15 @@
     animation-duration: 4s;
   }
 
+  .headline p {
+    margin-left: 7vmax;
+    margin-right: 18vmax;
+  }
+
   .headline button {
     position: relative;
     width: 40%;
-    margin-left: 8%;
+    margin-left: 7vmax;
   }
 
   .mobile {
