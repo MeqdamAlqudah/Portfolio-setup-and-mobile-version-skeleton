@@ -233,6 +233,11 @@
     margin-left: -313px;
   }
 
+  .headline_2 p.blockquote {
+    margin-left: 18rem;
+    margin-right: 18rem;
+  }
+
   html,
   body {
     overflow-x: hidden;
@@ -866,10 +871,5 @@
   .main-container {
     display: flex;
     justify-content: center;
-  }
-
-  .blockquote {
-    margin-left: 18rem;
-    margin-right: 18rem;
   }
 }
