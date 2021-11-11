@@ -232,13 +232,40 @@ for (let i = 0; i < objValues.length; i += 1) {
 const email = document.getElementById('mail');
 const form = document.getElementById('form');
 const errorElement = document.getElementById('error');
+const userName = document.getElementById('name');
+const message = document.getElementById('Message');
+
+// preserve-form-data
+
+const preserveData = function (userName, message, email) {
+  let formId = {};
+  if (localStorage.getItem('formId')) {
+    formId = JSON.parse(localStorage.getItem('formId'));
+  }
+  formId.userNameId = userName.value;
+  formId.emailId = email.value;
+  formId.messageId = message.value;
+  localStorage.setItem('formId', JSON.stringify(formId));
+};
 
 // Validate-contact-form function
 const errorPresent = function (e) {
   if (email.value !== email.value.toLowerCase()) {
     e.preventDefault();
     errorElement.innerText = "Please enter the email with lower case letter's";
+  } else {
+    preserveData(userName, message, email);
   }
 };
 
 form.addEventListener('submit', errorPresent);
+const formId = JSON.parse(localStorage.getItem('formId'));
+if (document.getElementById('mail').value) {
+  document.getElementById('mail').value = formId.emailId;
+}
+if (document.getElementById('name').value) {
+  document.getElementById('name').value = formId.userNameId;
+}
+if (document.getElementById('Message').value) {
+  document.getElementById('Message').value = formId.messageId;
+}

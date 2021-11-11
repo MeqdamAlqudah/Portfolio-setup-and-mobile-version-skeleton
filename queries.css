@@ -1,53 +1,7 @@
-@media only screen and (min-width: 768px) and (max-width: 800px) {
-  /* .effect.a {
-    position: relative;
-    left: 39.25rem;
-    top: 62px;
-  }
-
-  .effect.b {
-    position: relative;
-    left: 38.5rem;
-    bottom: -53px;
-  }
-
-  .second-about .effect_ {
-    top: 9px;
-    left: 80vw;
-  }
-/
-  .menu {
-    height: 112%;
-    bottom: -3.4000000000000004rem;
-  }
-
-  .cancel-button {
-    left: 514px;
-    top: -64px;
-  }
-
+@media only screen and (min-height: 800px) and (max-height: 970px) {
   .menu-mask {
-    top: 12rem;
-    width: 700px;
-    left: 54px;
-    height: 12rem;
+    top: 15rem;
   }
-
-  .second-menu-dot {
-    top: 23vmax;
-    left: 15rem;
-    width: 72px;
-  }
-
-  .first-menu-dot {
-    left: 48vw;
-    top: 84px;
-    width: 5rem;
-  }
-
-  .menu-list {
-    font-size: 28px;
-  } */
 }
 
 @media only screen and (min-width: 512px)and (max-width: 700px) {
