@@ -225,8 +225,8 @@ const errorElement = document.getElementById('error');
 const errorPresent = function (e) {
   if (email.value !== email.value.toLowerCase()) {
     errorElement.innerText = "Please enter the email with lower case letter's";
+    e.preventDefault();
   }
-  e.preventDefault();
 };
 
 form.addEventListener('submit', errorPresent);
