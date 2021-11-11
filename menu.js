@@ -260,12 +260,12 @@ const errorPresent = function (e) {
 
 form.addEventListener('submit', errorPresent);
 const formId = JSON.parse(localStorage.getItem('formId'));
-if (document.getElementById('mail').value) {
+if (!document.getElementById('mail').value) {
   document.getElementById('mail').value = formId.emailId;
 }
-if (document.getElementById('name').value) {
+if (!document.getElementById('name').value) {
   document.getElementById('name').value = formId.userNameId;
 }
-if (document.getElementById('Message').value) {
+if (!document.getElementById('Message').value) {
   document.getElementById('Message').value = formId.messageId;
 }
