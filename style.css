@@ -114,8 +114,8 @@ h3 {
   border-color: transparent;
 }
 
-.second-buttons button :hover,
-.second-buttons button :active {
+.second-buttons button:hover,
+.second-buttons button:active {
   background-color: #1a2236;
   color: #fff;
 }
@@ -684,18 +684,18 @@ footer {
 
 .menu {
   z-index: 10;
-  display: grid;
-  width: 100%;
+  display: flex;
   background-color: #fff;
   position: absolute;
-  height: 119%;
-  bottom: -5.4rem;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
 }
 
 .menu-mask {
   position: relative;
   top: 11rem;
-  width: 377px;
+  width: 100%;
   left: -2px;
 }
 
@@ -709,8 +709,8 @@ footer {
 
 .cancel-button {
   position: relative;
-  left: 157px;
-  top: -64px;
+  left: 133px;
+  top: -84px;
   width: 20px;
   align-self: flex-end;
 }
@@ -749,10 +749,19 @@ footer {
 .menu-container {
   display: flex;
   flex-direction: column;
+  background-color: white;
   align-items: center;
   justify-self: center;
   position: relative;
-  bottom: -39px;
+  width: 100%;
+}
+
+.cancel {
+  align-self: flex-end;
+  margin-right: 1rem;
+  position: relative;
+  bottom: 0;
+  right: 9rem;
 }
 
 /*   -------------------------------------------------------------------- */
@@ -962,4 +971,10 @@ h5 {
   align-self: flex-end;
   margin-top: 20px;
   margin-right: 20px;
+}
+
+#error {
+  color: red;
+  font-family: Poppins, sans-serif;
+  font-size: 10px;
 }

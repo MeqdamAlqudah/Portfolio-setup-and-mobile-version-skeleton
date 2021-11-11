@@ -1,12 +1,24 @@
+const lastWidth = document.querySelector('body').style.width;
 /* eslint-disable func-names */
 const closeMenu = function () {
   document.querySelector('.menu').classList.add('hidden');
+  document.querySelector('body').style.width = lastWidth;
+  document.querySelector('.About-myself').classList.remove('hidden');
+  document.querySelector('.form').classList.remove('hidden');
+  document.querySelector('.Desktop-head').classList.remove('hidden');
+  document.querySelector('.geom').classList.remove('hidden');
+  document.querySelector('.Works').classList.remove('hidden');
 };
 
 const openMenu = function () {
   document.querySelector('.menu').classList.remove('hidden');
+  document.querySelector('body').style.width = '10vmax';
+  document.querySelector('.About-myself').classList.add('hidden');
+  document.querySelector('.form').classList.add('hidden');
+  document.querySelector('.Desktop-head').classList.add('hidden');
+  document.querySelector('.geom').classList.add('hidden');
+  document.querySelector('.Works').classList.add('hidden');
 };
-const lastWidth = document.querySelector('body').style.width;
 // popup1
 const openPopup1 = function () {
   document.querySelector('.popup-1').classList.remove('hidden');
@@ -216,3 +228,17 @@ for (let i = 0; i < objValues.length; i += 1) {
   document.querySelector(`.popup-${i + 1} .live`).setAttribute('href', storeObj[i + 1].live);
   document.querySelector(`.popup-${i + 1} .source`).setAttribute('href', storeObj[i + 1].source);
 }
+/* Validate-contact-form */
+const email = document.getElementById('mail');
+const form = document.getElementById('form');
+const errorElement = document.getElementById('error');
+
+// Validate-contact-form function
+const errorPresent = function (e) {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorElement.innerText = "Please enter the email with lower case letter's";
+  }
+};
+
+form.addEventListener('submit', errorPresent);
