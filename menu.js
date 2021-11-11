@@ -236,8 +236,8 @@ const errorElement = document.getElementById('error');
 // Validate-contact-form function
 const errorPresent = function (e) {
   if (email.value !== email.value.toLowerCase()) {
-    errorElement.innerText = "Please enter the email with lower case letter's";
     e.preventDefault();
+    errorElement.innerText = "Please enter the email with lower case letter's";
   }
 };
 
