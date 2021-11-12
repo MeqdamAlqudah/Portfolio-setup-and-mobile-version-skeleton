@@ -1,153 +1,113 @@
-const lastWidth = document.querySelector('body').style.width;
 /* eslint-disable func-names */
+const lastWidth = document.querySelector('body').style.width;
+/* function of calls we will make */
+const callsClose = function () {
+  document.querySelector('.About-myself').classList.remove('hidden');// Show the about myself
+  document.querySelector('.form').classList.remove('hidden');// Show the form section
+  document.querySelector('.headline').classList.remove('hidden');// Show the headline
+  document.querySelector('.Desktop-head').classList.remove('hidden');// Show the Desktop head img
+  document.querySelector('.geom').classList.remove('hidden');// Show the about myself
+  document.querySelector('body').style.width = lastWidth;// return the last width of the body
+};
+
+const callsOpen = function () {
+  document.querySelector('.About-myself').classList.add('hidden');// hide the about myself to controll the popup size as we want
+  document.querySelector('.form').classList.add('hidden');// hide the form section to controll the popup size as we want
+  document.querySelector('.headline').classList.add('hidden');// hide the headline to controll the popup size as we want
+  document.querySelector('.Desktop-head').classList.add('hidden');// hide the Desktop head img to controll the popup size as we want
+  document.querySelector('.geom').classList.add('hidden');// hide the geom img to controll the popup size as we want
+  document.querySelector('body').style.width = '20vmax';// shrink the size of the body to controll the popup size as we want
+};
+/* close and open the menu */
+// in style.css you can find i pul the display property for the hidden class to none
 const closeMenu = function () {
-  document.querySelector('.menu').classList.add('hidden');
-  document.querySelector('body').style.width = lastWidth;
-  document.querySelector('.About-myself').classList.remove('hidden');
-  document.querySelector('.form').classList.remove('hidden');
-  document.querySelector('.Desktop-head').classList.remove('hidden');
-  document.querySelector('.geom').classList.remove('hidden');
-  document.querySelector('.Works').classList.remove('hidden');
+  document.querySelector('.menu').classList.add('hidden');// hide the menu
+  document.querySelector('body').style.width = lastWidth;// return the width of the bodu
+  document.querySelector('.About-myself').classList.remove('hidden');// return about-myself-section
+  document.querySelector('.form').classList.remove('hidden');// retrun the form section
+  document.querySelector('.Desktop-head').classList.remove('hidden');// retrun the desktop head
+  document.querySelector('.geom').classList.remove('hidden');// return the geom image
+  document.querySelector('.Works').classList.remove('hidden');// return the work section
 };
 
 const openMenu = function () {
-  document.querySelector('.menu').classList.remove('hidden');
-  document.querySelector('body').style.width = '10vmax';
-  document.querySelector('.About-myself').classList.add('hidden');
-  document.querySelector('.form').classList.add('hidden');
-  document.querySelector('.Desktop-head').classList.add('hidden');
-  document.querySelector('.geom').classList.add('hidden');
-  document.querySelector('.Works').classList.add('hidden');
+  document.querySelector('.menu').classList.remove('hidden');// show the menu part by changing the display
+  document.querySelector('body').style.width = '10vmax';// shrink the size of the body so we can control the size of the menu as we want
+  document.querySelector('.About-myself').classList.add('hidden');// hide the about myself section to controll the menu as we want
+  document.querySelector('.form').classList.add('hidden');// hide the form section to controll the menu as we want
+  document.querySelector('.Desktop-head').classList.add('hidden');// hide the Desktophead to controll the menu as we want
+  document.querySelector('.geom').classList.add('hidden');// hide the geom image to controll the menu as we want
+  document.querySelector('.Works').classList.add('hidden');// hide the Works section to controll the menu as we want
 };
 // popup1
 const openPopup1 = function () {
-  document.querySelector('.popup-1').classList.remove('hidden');
-  document.querySelector('.About-myself').classList.add('hidden');
-  document.querySelector('.form').classList.add('hidden');
-  document.querySelector('.headline').classList.add('hidden');
-  document.querySelector('.Desktop-head').classList.add('hidden');
-  document.querySelector('.geom').classList.add('hidden');
-  document.querySelector('body').style.width = '20vmax';
+  document.querySelector('.popup-1').classList.remove('hidden');// Show popup-1
+  callsOpen();
 };
 
 const closePopup1 = function () {
   document.querySelector('.popup-1').classList.add('hidden');
-  document.querySelector('.About-myself').classList.remove('hidden');
-  document.querySelector('.form').classList.remove('hidden');
-  document.querySelector('.headline').classList.remove('hidden');
-  document.querySelector('.Desktop-head').classList.remove('hidden');
-  document.querySelector('.geom').classList.remove('hidden');
-  document.querySelector('body').style.width = lastWidth;
+  callsClose();
 };
 
 // popup2
 
 const openPopup2 = function () {
-  document.querySelector('.popup-2').classList.remove('hidden');
-  document.querySelector('.About-myself').classList.add('hidden');
-  document.querySelector('.form').classList.add('hidden');
-  document.querySelector('.headline').classList.add('hidden');
-  document.querySelector('.Desktop-head').classList.add('hidden');
-  document.querySelector('.geom').classList.add('hidden');
-  document.querySelector('body').style.width = '20vmax';
+  document.querySelector('.popup-2').classList.remove('hidden');// Show popup-2
+  callsOpen();
 };
 
 const closePopup2 = function () {
   document.querySelector('.popup-2').classList.add('hidden');
-  document.querySelector('.About-myself').classList.remove('hidden');
-  document.querySelector('.form').classList.remove('hidden');
-  document.querySelector('.headline').classList.remove('hidden');
-  document.querySelector('.Desktop-head').classList.remove('hidden');
-  document.querySelector('.geom').classList.remove('hidden');
-  document.querySelector('body').style.width = lastWidth;
+  callsClose();
 };
 
 // popup3
 
 const openPopup3 = function () {
-  document.querySelector('.popup-3').classList.remove('hidden');
-  document.querySelector('.About-myself').classList.add('hidden');
-  document.querySelector('.form').classList.add('hidden');
-  document.querySelector('.headline').classList.add('hidden');
-  document.querySelector('.Desktop-head').classList.add('hidden');
-  document.querySelector('.geom').classList.add('hidden');
-  document.querySelector('body').style.width = '20vmax';
+  document.querySelector('.popup-3').classList.remove('hidden');// Show popup-3
+  callsOpen();
 };
 
 const closePopup3 = function () {
   document.querySelector('.popup-3').classList.add('hidden');
-  document.querySelector('.About-myself').classList.remove('hidden');
-  document.querySelector('.form').classList.remove('hidden');
-  document.querySelector('.headline').classList.remove('hidden');
-  document.querySelector('.Desktop-head').classList.remove('hidden');
-  document.querySelector('.geom').classList.remove('hidden');
-  document.querySelector('body').style.width = lastWidth;
+  callsClose();
 };
 
 // popup4
 
 const openPopup4 = function () {
-  document.querySelector('.popup-4').classList.remove('hidden');
-  document.querySelector('.About-myself').classList.add('hidden');
-  document.querySelector('.form').classList.add('hidden');
-  document.querySelector('.headline').classList.add('hidden');
-  document.querySelector('.Desktop-head').classList.add('hidden');
-  document.querySelector('.geom').classList.add('hidden');
-  document.querySelector('body').style.width = '20vmax';
+  document.querySelector('.popup-4').classList.remove('hidden');// Show popup-4
+  callsOpen();
 };
 
 const closePopup4 = function () {
   document.querySelector('.popup-4').classList.add('hidden');
-  document.querySelector('.About-myself').classList.remove('hidden');
-  document.querySelector('.form').classList.remove('hidden');
-  document.querySelector('.headline').classList.remove('hidden');
-  document.querySelector('.Desktop-head').classList.remove('hidden');
-  document.querySelector('.geom').classList.remove('hidden');
-  document.querySelector('body').style.width = lastWidth;
+  callsClose();
 };
 
 // popup5
 
 const openPopup5 = function () {
-  document.querySelector('.popup-5').classList.remove('hidden');
-  document.querySelector('.About-myself').classList.add('hidden');
-  document.querySelector('.form').classList.add('hidden');
-  document.querySelector('.headline').classList.add('hidden');
-  document.querySelector('.Desktop-head').classList.add('hidden');
-  document.querySelector('.geom').classList.add('hidden');
-  document.querySelector('body').style.width = '20vmax';
+  document.querySelector('.popup-5').classList.remove('hidden');// Show popup-5
+  callsOpen();
 };
 
 const closePopup5 = function () {
   document.querySelector('.popup-5').classList.add('hidden');
-  document.querySelector('.About-myself').classList.remove('hidden');
-  document.querySelector('.form').classList.remove('hidden');
-  document.querySelector('.headline').classList.remove('hidden');
-  document.querySelector('.Desktop-head').classList.remove('hidden');
-  document.querySelector('.geom').classList.remove('hidden');
-  document.querySelector('body').style.width = lastWidth;
+  callsClose();
 };
 
 // popup6
 
 const openPopup6 = function () {
-  document.querySelector('.popup-6').classList.remove('hidden');
-  document.querySelector('.About-myself').classList.add('hidden');
-  document.querySelector('.form').classList.add('hidden');
-  document.querySelector('.headline').classList.add('hidden');
-  document.querySelector('.Desktop-head').classList.add('hidden');
-  document.querySelector('.geom').classList.add('hidden');
-  document.querySelector('body').style.width = '20vmax';
+  document.querySelector('.popup-6').classList.remove('hidden');// Show popup-6
+  callsOpen();
 };
 
 const closePopup6 = function () {
   document.querySelector('.popup-6').classList.add('hidden');
-  document.querySelector('.About-myself').classList.remove('hidden');
-  document.querySelector('.form').classList.remove('hidden');
-  document.querySelector('.headline').classList.remove('hidden');
-  document.querySelector('.Desktop-head').classList.remove('hidden');
-  document.querySelector('.geom').classList.remove('hidden');
-  document.querySelector('body').style.width = lastWidth;
+  callsClose();
 };
 const xButton = function (x) {
   if (x.keyCode === 88) {
@@ -257,7 +217,7 @@ const errorPresent = function (e) {
     preserveData(userName, message, email);
   }
 };
-
+// preserve the last entered in the form
 form.addEventListener('submit', errorPresent);
 const formId = JSON.parse(localStorage.getItem('formId'));
 if (!document.getElementById('mail').value) {
