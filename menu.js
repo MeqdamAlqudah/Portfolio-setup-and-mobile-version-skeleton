@@ -1,5 +1,6 @@
 /* eslint-disable func-names */
 const lastWidth = document.querySelector('body').style.width;
+const lastHeight = document.querySelector('body').style.height;
 /* function of calls we will make */
 const callsClose = function () {
   document.getElementsByClassName('About-myself')[0].classList.remove('hidden');// Show the about myself
@@ -8,6 +9,7 @@ const callsClose = function () {
   document.getElementsByClassName('Desktop-head')[0].classList.remove('hidden');// Show the Desktop head img
   document.getElementsByClassName('geom')[0].classList.remove('hidden');// Show the about myself
   document.querySelector('body').style.width = lastWidth;// return the last width of the body
+  document.querySelector('body').style.height = lastHeight;
 };
 
 const callsOpen = function () {
@@ -16,7 +18,8 @@ const callsOpen = function () {
   document.getElementsByClassName('headline')[0].classList.add('hidden');// hide the headline to controll the popup size as we want
   document.getElementsByClassName('Desktop-head')[0].classList.add('hidden');// hide the Desktop head img to controll the popup size as we want
   document.getElementsByClassName('geom')[0].classList.add('hidden');// hide the geom img to controll the popup size as we want
-  document.querySelector('body').style.width = '20vmax';// shrink the size of the body to controll the popup size as we want
+  document.querySelector('body').style.width = '10vmax';// shrink the size of the body to controll the popup size as we want
+  document.querySelector('body').style.height = '1vmax';
 };
 /* close and open the menu */
 // in style.css you can find i pul the display property for the hidden class to none
