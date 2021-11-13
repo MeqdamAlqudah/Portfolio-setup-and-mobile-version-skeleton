@@ -2,111 +2,111 @@
 const lastWidth = document.querySelector('body').style.width;
 /* function of calls we will make */
 const callsClose = function () {
-  document.querySelector('.About-myself').classList.remove('hidden');// Show the about myself
-  document.querySelector('.form').classList.remove('hidden');// Show the form section
-  document.querySelector('.headline').classList.remove('hidden');// Show the headline
-  document.querySelector('.Desktop-head').classList.remove('hidden');// Show the Desktop head img
-  document.querySelector('.geom').classList.remove('hidden');// Show the about myself
-  document.querySelector('body').style.width = lastWidth;// return the last width of the body
+  document.getElementsByClassName('About-myself').classList.remove('hidden');// Show the about myself
+  document.getElementsByClassName('form').classList.remove('hidden');// Show the form section
+  document.getElementsByClassName('headline').classList.remove('hidden');// Show the headline
+  document.getElementsByClassName('Desktop-head').classList.remove('hidden');// Show the Desktop head img
+  document.getElementsByClassName('geom').classList.remove('hidden');// Show the about myself
+  document.getElementsByClassName('body').style.width = lastWidth;// return the last width of the body
 };
 
 const callsOpen = function () {
-  document.querySelector('.About-myself').classList.add('hidden');// hide the about myself to controll the popup size as we want
-  document.querySelector('.form').classList.add('hidden');// hide the form section to controll the popup size as we want
-  document.querySelector('.headline').classList.add('hidden');// hide the headline to controll the popup size as we want
-  document.querySelector('.Desktop-head').classList.add('hidden');// hide the Desktop head img to controll the popup size as we want
-  document.querySelector('.geom').classList.add('hidden');// hide the geom img to controll the popup size as we want
-  document.querySelector('body').style.width = '20vmax';// shrink the size of the body to controll the popup size as we want
+  document.getElementsByClassName('About-myself').classList.add('hidden');// hide the about myself to controll the popup size as we want
+  document.getElementsByClassName('form').classList.add('hidden');// hide the form section to controll the popup size as we want
+  document.getElementsByClassName('headline').classList.add('hidden');// hide the headline to controll the popup size as we want
+  document.getElementsByClassName('Desktop-head').classList.add('hidden');// hide the Desktop head img to controll the popup size as we want
+  document.getElementsByClassName('geom').classList.add('hidden');// hide the geom img to controll the popup size as we want
+  document.getElementsByClassName('body').style.width = '20vmax';// shrink the size of the body to controll the popup size as we want
 };
 /* close and open the menu */
 // in style.css you can find i pul the display property for the hidden class to none
 const closeMenu = function () {
-  document.querySelector('.menu').classList.add('hidden');// hide the menu
-  document.querySelector('body').style.width = lastWidth;// return the width of the bodu
-  document.querySelector('.About-myself').classList.remove('hidden');// return about-myself-section
-  document.querySelector('.form').classList.remove('hidden');// retrun the form section
-  document.querySelector('.Desktop-head').classList.remove('hidden');// retrun the desktop head
-  document.querySelector('.geom').classList.remove('hidden');// return the geom image
-  document.querySelector('.Works').classList.remove('hidden');// return the work section
+  document.getElementsByClassName('menu').classList.add('hidden');// hide the menu
+  document.getElementsByClassName('body').style.width = lastWidth;// return the width of the bodu
+  document.getElementsByClassName('About-myself').classList.remove('hidden');// return about-myself-section
+  document.getElementsByClassName('form').classList.remove('hidden');// retrun the form section
+  document.getElementsByClassName('Desktop-head').classList.remove('hidden');// retrun the desktop head
+  document.getElementsByClassName('geom').classList.remove('hidden');// return the geom image
+  document.getElementsByClassName('Works').classList.remove('hidden');// return the work section
 };
 
 const openMenu = function () {
-  document.querySelector('.menu').classList.remove('hidden');// show the menu part by changing the display
-  document.querySelector('body').style.width = '10vmax';// shrink the size of the body so we can control the size of the menu as we want
-  document.querySelector('.About-myself').classList.add('hidden');// hide the about myself section to controll the menu as we want
-  document.querySelector('.form').classList.add('hidden');// hide the form section to controll the menu as we want
-  document.querySelector('.Desktop-head').classList.add('hidden');// hide the Desktophead to controll the menu as we want
-  document.querySelector('.geom').classList.add('hidden');// hide the geom image to controll the menu as we want
-  document.querySelector('.Works').classList.add('hidden');// hide the Works section to controll the menu as we want
+  document.getElementsByClassName('menu').classList.remove('hidden');// show the menu part by changing the display
+  document.getElementsByClassName('body').style.width = '10vmax';// shrink the size of the body so we can control the size of the menu as we want
+  document.getElementsByClassName('About-myself').classList.add('hidden');// hide the about myself section to controll the menu as we want
+  document.getElementsByClassName('form').classList.add('hidden');// hide the form section to controll the menu as we want
+  document.getElementsByClassName('Desktop-head').classList.add('hidden');// hide the Desktophead to controll the menu as we want
+  document.getElementsByClassName('geom').classList.add('hidden');// hide the geom image to controll the menu as we want
+  document.getElementsByClassName('Works').classList.add('hidden');// hide the Works section to controll the menu as we want
 };
 // popup1
 const openPopup1 = function () {
-  document.querySelector('.popup-1').classList.remove('hidden');// Show popup-1
+  document.getElementsByClassName('popup-1').classList.remove('hidden');// Show popup-1
   callsOpen();
 };
 
 const closePopup1 = function () {
-  document.querySelector('.popup-1').classList.add('hidden');
+  document.getElementsByClassName('popup-1').classList.add('hidden');
   callsClose();
 };
 
 // popup2
 
 const openPopup2 = function () {
-  document.querySelector('.popup-2').classList.remove('hidden');// Show popup-2
+  document.getElementsByClassName('popup-2').classList.remove('hidden');// Show popup-2
   callsOpen();
 };
 
 const closePopup2 = function () {
-  document.querySelector('.popup-2').classList.add('hidden');
+  document.getElementsByClassName('popup-2').classList.add('hidden');
   callsClose();
 };
 
 // popup3
 
 const openPopup3 = function () {
-  document.querySelector('.popup-3').classList.remove('hidden');// Show popup-3
+  document.getElementsByClassName('popup-3').classList.remove('hidden');// Show popup-3
   callsOpen();
 };
 
 const closePopup3 = function () {
-  document.querySelector('.popup-3').classList.add('hidden');
+  document.getElementsByClassName('popup-3').classList.add('hidden');
   callsClose();
 };
 
 // popup4
 
 const openPopup4 = function () {
-  document.querySelector('.popup-4').classList.remove('hidden');// Show popup-4
+  document.getElementsByClassName('popup-4').classList.remove('hidden');// Show popup-4
   callsOpen();
 };
 
 const closePopup4 = function () {
-  document.querySelector('.popup-4').classList.add('hidden');
+  document.getElementsByClassName('popup-4').classList.add('hidden');
   callsClose();
 };
 
 // popup5
 
 const openPopup5 = function () {
-  document.querySelector('.popup-5').classList.remove('hidden');// Show popup-5
+  document.getElementsByClassName('popup-5').classList.remove('hidden');// Show popup-5
   callsOpen();
 };
 
 const closePopup5 = function () {
-  document.querySelector('.popup-5').classList.add('hidden');
+  document.getElementsByClassName('popup-5').classList.add('hidden');
   callsClose();
 };
 
 // popup6
 
 const openPopup6 = function () {
-  document.querySelector('.popup-6').classList.remove('hidden');// Show popup-6
+  document.getElementsByClassName('popup-6').classList.remove('hidden');// Show popup-6
   callsOpen();
 };
 
 const closePopup6 = function () {
-  document.querySelector('.popup-6').classList.add('hidden');
+  document.getElementsByClassName('popup-6').classList.add('hidden');
   callsClose();
 };
 const xButton = function (x) {
@@ -121,38 +121,38 @@ const xButton = function (x) {
   }
 };
 // menu
-document.querySelector('.cancel').addEventListener('click', closeMenu);
-document.querySelector('.menu-button-selector').addEventListener('click', openMenu);
-document.querySelector('.Hello').addEventListener('click', closeMenu);
-document.querySelector('.portfolio').addEventListener('click', closeMenu);
-document.querySelector('.About').addEventListener('click', closeMenu);
-document.querySelector('.contact').addEventListener('click', closeMenu);
+document.getElementsByClassName('cancel').addEventListener('click', closeMenu);
+document.getElementsByClassName('menu-button-selector').addEventListener('click', openMenu);
+document.getElementsByClassName('Hello').addEventListener('click', closeMenu);
+document.getElementsByClassName('portfolio').addEventListener('click', closeMenu);
+document.getElementsByClassName('About').addEventListener('click', closeMenu);
+document.getElementsByClassName('contact').addEventListener('click', closeMenu);
 document.addEventListener('keydown', xButton);
 
 // first
 
-document.querySelector('#See1').addEventListener('click', openPopup1);
-document.querySelector('.cancel-1').addEventListener('click', closePopup1);
+document.getElementsByClassName('#See1').addEventListener('click', openPopup1);
+document.getElementsByClassName('cancel-1').addEventListener('click', closePopup1);
 // second
-document.querySelector('#See2').addEventListener('click', openPopup2);
-document.querySelector('#SeeD2').addEventListener('click', openPopup2);
-document.querySelector('.cancel-2').addEventListener('click', closePopup2);
+document.getElementsByClassName('#See2').addEventListener('click', openPopup2);
+document.getElementsByClassName('#SeeD2').addEventListener('click', openPopup2);
+document.getElementsByClassName('cancel-2').addEventListener('click', closePopup2);
 // third
-document.querySelector('#See3').addEventListener('click', openPopup3);
-document.querySelector('#SeeD3').addEventListener('click', openPopup2);
-document.querySelector('.cancel-3').addEventListener('click', closePopup3);
+document.getElementsByClassName('#See3').addEventListener('click', openPopup3);
+document.getElementsByClassName('#SeeD3').addEventListener('click', openPopup2);
+document.getElementsByClassName('cancel-3').addEventListener('click', closePopup3);
 // fourth
-document.querySelector('#See4').addEventListener('click', openPopup4);
-document.querySelector('#SeeD4').addEventListener('click', openPopup2);
-document.querySelector('.cancel-4').addEventListener('click', closePopup4);
+document.getElementsByClassName('#See4').addEventListener('click', openPopup4);
+document.getElementsByClassName('#SeeD4').addEventListener('click', openPopup2);
+document.getElementsByClassName('cancel-4').addEventListener('click', closePopup4);
 // fifth
-document.querySelector('#See5').addEventListener('click', openPopup5);
-document.querySelector('#SeeD5').addEventListener('click', openPopup2);
-document.querySelector('.cancel-5').addEventListener('click', closePopup5);
+document.getElementsByClassName('#See5').addEventListener('click', openPopup5);
+document.getElementsByClassName('#SeeD5').addEventListener('click', openPopup2);
+document.getElementsByClassName('cancel-5').addEventListener('click', closePopup5);
 // six
-document.querySelector('#See6').addEventListener('click', openPopup6);
-document.querySelector('#SeeD6').addEventListener('click', openPopup2);
-document.querySelector('.cancel-6').addEventListener('click', closePopup6);
+document.getElementsByClassName('#See6').addEventListener('click', openPopup6);
+document.getElementsByClassName('#SeeD6').addEventListener('click', openPopup2);
+document.getElementsByClassName('cancel-6').addEventListener('click', closePopup6);
 // Storing the Data
 const text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\r\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.';
 const storeObj = {
@@ -177,16 +177,16 @@ const storeObj = {
 };
 const objValues = Object.keys(storeObj);
 for (let i = 0; i < objValues.length; i += 1) {
-  document.querySelector(`.popup-${i + 1} p`).textContent = storeObj[i + 1].description;
-  document.querySelector(`.popup-${i + 1} h5`).textContent = storeObj[i + 1].name;
+  document.getElementsByClassName(`popup-${i + 1} p`).textContent = storeObj[i + 1].description;
+  document.getElementsByClassName(`popup-${i + 1} h5`).textContent = storeObj[i + 1].name;
   for (let j = 0; j < storeObj[i + 1].featuredImg.length; j += 1) {
-    document.querySelector(`.popup-${i + 1} .pimg-${j + 1} img`).setAttribute('src', storeObj[i + 1].featuredImg[j]);
+    document.getElementsByClassName(`popup-${i + 1} .pimg-${j + 1} img`).setAttribute('src', storeObj[i + 1].featuredImg[j]);
   }
   for (let j = 0; j < storeObj[i + 1].technologies.length; j += 1) {
-    document.querySelector(`.popup-${i + 1} .first-buttons .tech${j + 1}`).textContent = storeObj[i + 1].technologies[j];
+    document.getElementsByClassName(`popup-${i + 1} .first-buttons .tech${j + 1}`).textContent = storeObj[i + 1].technologies[j];
   }
-  document.querySelector(`.popup-${i + 1} .live`).setAttribute('href', storeObj[i + 1].live);
-  document.querySelector(`.popup-${i + 1} .source`).setAttribute('href', storeObj[i + 1].source);
+  document.getElementsByClassName(`popup-${i + 1} .live`).setAttribute('href', storeObj[i + 1].live);
+  document.getElementsByClassName(`popup-${i + 1} .source`).setAttribute('href', storeObj[i + 1].source);
 }
 /* Validate-contact-form */
 const email = document.getElementById('mail');
@@ -217,7 +217,7 @@ const errorPresent = function (e) {
     preserveData(userName, message, email);
   }
 };
-// preserve the last entered in the form
+// preserve the last entered  data in the form
 form.addEventListener('submit', errorPresent);
 const formId = JSON.parse(localStorage.getItem('formId'));
 if (!document.getElementById('mail').value) {
