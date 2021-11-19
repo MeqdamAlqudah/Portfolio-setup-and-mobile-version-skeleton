@@ -4,7 +4,7 @@
   } */
 }
 
-@media only screen and (min-width: 512px)and (max-width: 700px) {
+@media only screen and (min-width: 512px) and (max-width: 700px) {
   /* .effect.a {
     position: relative;
     left: 30.25rem;
@@ -71,7 +71,7 @@
   } */
 }
 
-@media only screen and (min-width: 400px)and (max-width: 510px) {
+@media only screen and (min-width: 400px) and (max-width: 510px) {
   /* .effect.a {
     position: relative;
     left: 303px;
@@ -181,8 +181,9 @@
     margin-left: 55px;
   }
 
+  /* prettier-ignore */
   .About-myself h3 {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin-left: -313px;
   }
@@ -211,10 +212,12 @@
     flex-direction: row;
   }
 
+  /* prettier-ignore */
+
   .Desktop-head {
     animation-name: head;
     animation-duration: 4s;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
   }
@@ -481,8 +484,10 @@
     grid-column-end: 3;
   }
 
+  /* prettier-ignore */
+
   label {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-size: 13px;
     color: #5c5b5b;
