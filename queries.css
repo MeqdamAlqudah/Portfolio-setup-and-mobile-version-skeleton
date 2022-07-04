@@ -124,23 +124,51 @@
   } */
 }
 
-@media only screen and (min-width: 322px) and (max-width: 375px) {
-  /* .effect.a {
-    position: relative;
-    left: 16rem;
-    top: 62px;
+@media only screen and (min-width: 320px) and ( max-width: 1020px){
+  .popupimgmac{
+    width: 292px;
+    height: 147px;
   }
-
-  .effect.b {
+  .vector-2 {
+    z-index: 15;
     position: relative;
-    left: 250px;
-    bottom: -53px;
+    top: 119px;
+    width: 12px;
+    left: 125px;
   }
+  @keyframes example {
+    from {width: 72px;
+    position: static;
+  z-index: initial;
+border: none;}
+    to {
+      position: absolute;
+      left: 120px;
+      z-index: 1;
+      border-radius: 8px;
+      box-shadow: 0px 1px 20px 15px;
+      border-width: 0.5px;
+      border: solid;
+      top: 338px;
+      width: 188px;
+      animation-name: example;
+      animation-duration: 0.25s;}
+  }
+.choosenImage {
 
-  .second-about .effect_ {
-    top: 9px;
-    left: 247px;
-  } */
+  position: absolute;
+  left: 120px;
+  z-index: 1;
+  border-radius: 8px;
+  box-shadow: 0px 1px 20px 15px;
+  border-width: 0.5px;
+  border: solid;
+  top: 338px;
+  width: 188px;
+  animation-name: example;
+  animation-duration: 0.25s;
+}
+
 }
 
 /* Mobile phone */
@@ -208,7 +236,9 @@
     width: 100%;
     margin-bottom: 10px;
     z-index: 16;
-  }
+    box-shadow: 1px 1px 20px 5px;
+}
+
 
   .second-buttons {
     flex-direction: row;
@@ -255,7 +285,7 @@
     margin-right: 8vmax;
   }
 
-  .headline button {
+  .start-collaboration{
     position: relative;
     width: 40%;
     margin-left: 7vmax;
@@ -319,7 +349,7 @@
     position: absolute;
     opacity: 0.98;
     z-index: 2;
-    bottom: 213px;
+    bottom: 185px;
   }
 
   .five-dropup-container {
@@ -746,26 +776,34 @@
     position: static;
     order: -1;
   }
-  .cancel-2 {
+  .cancel-3,.cancel-1,.cancel-2,.cancel-4,.cancel-5,.cancel-6{
     order: -3;
   }
-  .cancel-1 {
-    order: -3;
-  }
+
   .popupimgmac {
     width: 79vw;
     order: 1;
     height: 72vh;
   }
-
+#red-point {
+  width: 10px;
+    height: 10px;
+    border: solid;
+    border-color: red;
+    border-radius: 16px;
+    background-color: red;
+    position: absolute;
+    top: 14px;
+    left: 27px;
+    box-shadow: 1px 1px 20px 1px red;
+}
   .img-list img {
     width: 20.3vw;
     margin-left: 2px;
     margin-top: -8px;
   }
-  .popup-2 .img-list img {
-    height: 142px;
-  }
+
+
   .img-list li {
     position: relative;
   }
@@ -844,9 +882,9 @@
   .popup-3 {
     background-color: #1a2236;
     opacity: 0.98;
-    width: 99vmax;
+    width: 73vmax;
     z-index: 30;
-    height: 138vmax;
+    height: 147vmax;
     position: absolute;
     display: flex;
     justify-content: center;
