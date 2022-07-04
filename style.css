@@ -155,7 +155,7 @@ h3 {
   display: -ms-grid;
   display: grid;
   margin-top: 20px;
-  width: 100%;
+  width: 100vw;
 }
 
 .first {
@@ -656,6 +656,11 @@ footer {
   transition: 0.1s;
 }
 
+.hover {
+  color: #1a2236;
+  border-bottom: 2px solid #1a2236;
+  transition: border 0.5s;
+}
 .Desktop-head a:hover,
 .Desktop-head a:active {
   border-bottom: 2px solid #1a2236;
@@ -677,17 +682,18 @@ footer {
 .geom {
   margin-top: 4%;
   float: right;
+  width: 53vw;
 }
 
 .dot {
   width: 11%;
   position: absolute;
-  top: 49rem;
-  left: 36.5%;
+  top: 59vw;
+  left: 35.2vw;
 }
 
 .dot1 {
-  width: 11%;
+  flex: 1;
   height: 30%;
   margin-right: 1%;
   margin-top: 0.5%;
@@ -846,10 +852,11 @@ h5 {
 
 .img-list {
   list-style: none;
-  display: flex;
-  align-items: center;
-  margin-top: -3px;
-  margin-right: 38px;
+    display: flex;
+    align-items: center;
+    padding-right: 28px;
+    margin-top: 0;
+    margin-right: 0;
 }
 
 .img-list img {
