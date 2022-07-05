@@ -124,28 +124,61 @@
   } */
 }
 
-@media only screen and (min-width: 322px) and (max-width: 375px) {
-  /* .effect.a {
-    position: relative;
-    left: 16rem;
-    top: 62px;
+@media only screen and (min-width: 320px) and (max-width: 1020px) {
+  .popupimgmac {
+    width: 292px;
+    height: 147px;
   }
 
-  .effect.b {
+  .vector-2 {
+    z-index: 15;
     position: relative;
-    left: 250px;
-    bottom: -53px;
+    top: 119px;
+    width: 12px;
+    left: 125px;
   }
 
-  .second-about .effect_ {
-    top: 9px;
-    left: 247px;
-  } */
+  @keyframes example {
+    from {
+      width: 72px;
+      position: static;
+      z-index: initial;
+      border: none;
+    }
+
+    to {
+      position: absolute;
+      left: 120px;
+      z-index: 1;
+      border-radius: 8px;
+      box-shadow: 0 1px 20px 15px;
+      border-width: 0.5px;
+      border: solid;
+      top: 338px;
+      width: 188px;
+      animation-name: example;
+      animation-duration: 0.25s;
+    }
+  }
+
+  .choosenImage {
+    position: absolute;
+    left: 120px;
+    z-index: 1;
+    border-radius: 8px;
+    box-shadow: 0 1px 20px 15px;
+    border-width: 0.5px;
+    border: solid;
+    top: 338px;
+    width: 188px;
+    animation-name: example;
+    animation-duration: 0.25s;
+  }
 }
 
 /* Mobile phone */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1020px) {
   html,
   body {
     width: 100%;
@@ -206,10 +239,12 @@
     width: 100%;
     margin-bottom: 10px;
     z-index: 16;
+    box-shadow: 1px 1px 20px 5px;
   }
 
   .second-buttons {
     flex-direction: row;
+    order: 4;
   }
 
   /* prettier-ignore */
@@ -248,18 +283,14 @@
   }
 
   .headline p {
-    margin-left: 7vmax;
-    margin-right: 18vmax;
+    margin-left: 8vmax;
+    margin-right: 8vmax;
   }
 
-  .headline button {
+  .start-collaboration {
     position: relative;
     width: 40%;
     margin-left: 7vmax;
-  }
-
-  .mobile {
-    display: none;
   }
 
   .links {
@@ -271,6 +302,8 @@
   .first h2 {
     transform: rotate(270deg);
     margin-left: 0;
+    flex: 4;
+    text-align: center;
     margin-bottom: 12%;
     font-size: 110px;
     font-style: normal;
@@ -290,40 +323,49 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    top: -7vmax;
-    position: relative;
+    order: 5;
+  }
+
+  .vector-1 {
+    position: static;
+    float: left;
+    width: 3vmax;
+  }
+
+  .vector-2 {
+    position: static;
+    float: right;
+    width: 3vmax;
+  }
+
+  .arrows {
+    order: 1;
+    z-index: 18;
+    top: 716px;
+    position: absolute;
+    width: 69vw;
   }
 
   .third-buttons li {
-    margin: 13vmax;
+    margin: 125px;
   }
 
   .dropup_5 {
-    width: 110%;
+    width: 100%;
     position: absolute;
     opacity: 0.98;
     z-index: 2;
-    bottom: 245px;
-  }
-
-  .five-dropup-container {
-    position: relative;
-    bottom: 16%;
-    left: 41%;
-    width: 90%;
-  }
-
-  .five-dropup-container:hover.five-dropup-container.dropup_5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    bottom: 185px;
   }
 
   #fifth-image {
-    height: 240px;
-    width: 110%;
-    position: relative;
-    bottom: 16%;
+    height: 100%;
+    width: 100%;
+  }
+
+  #geometry_4_5_container {
+    grid-column: 1;
+    grid-row: 5;
   }
 
   .second-drop-container {
@@ -338,10 +380,12 @@
   }
 
   .six-drop-container {
-    width: 90%;
-    position: relative;
-    left: 41%;
-    top: 20%;
+    width: 100%;
+    height: 100%;
+  }
+
+  #six-image {
+    height: 100%;
   }
 
   .six-drop-container:hover .dropup_6.Desktop {
@@ -355,16 +399,19 @@
     z-index: 3;
     position: absolute;
     opacity: 0.98;
-    top: -200px;
+    top: -228px;
+  }
+
+  .fourth-drop-container {
+    position: relative;
   }
 
   .dropup_4 {
-    width: 30%;
+    width: 100%;
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    top: 149em;
-    left: 50em;
+    top: 32px;
   }
 
   .About-myself {
@@ -412,13 +459,21 @@
     top: 20px;
   }
 
+  .third-dropup-container {
+    position: relative;
+  }
+
+  .img-list li {
+    position: relative;
+  }
+
   .links ul li {
     margin: 20px;
   }
 
   .geomet {
-    position: relative;
-    left: 94%;
+    order: 2;
+    align-self: flex-end;
     margin-left: 0;
     margin-right: 0;
   }
@@ -504,36 +559,44 @@
     margin-right: 12%;
   }
 
+  .fourth-container {
+    position: relative;
+  }
+
   .dropup_3 {
-    width: 59%;
+    width: 100%;
+    height: 21vw;
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    bottom: -1537px;
+    top: 172px;
   }
 
   .dropup_6 {
-    width: 100%;
+    width: 102%;
     z-index: 2;
     position: absolute;
     opacity: 0.98;
-    top: -35vh;
+    bottom: 206px;
   }
 
   #fifth-geom {
-    position: relative;
-    width: 280px;
-    height: 150px;
-    bottom: 17%;
-    left: 65%;
+    width: 100%;
+    height: 100%;
+  }
+
+  #fifth-gemo-container {
+    grid-row: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 
   #fifth-shape {
     position: relative;
-    width: 150px;
-    height: 150.42px;
-    bottom: 14%;
-    right: 2%;
+    width: 14vw;
+    height: 14vw;
+    bottom: 5vh;
+    right: 5.1vw;
   }
 
   .first,
@@ -547,16 +610,22 @@
 
   .fourth {
     grid-column: 2;
+    grid-column-end: 4;
+    grid-row: 5;
   }
 
   .six {
-    grid-column: 2;
-    grid-row-start: 1;
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .fifth-container {
+    position: relative;
   }
 
   .fifth {
-    grid-row-start: 2;
-    grid-column: 2;
+    grid-row: 2;
+    grid-column: 3;
   }
 
   .second-container {
@@ -564,19 +633,27 @@
     width: 242%;
   }
 
+  .six-container {
+    height: 100%;
+    position: relative;
+  }
+
   .container_2 {
     display: grid;
-    grid-template-columns: 60% 10%;
+    grid-template-columns: 56vw 9vw 356px;
+    grid-template-rows: 212px 87px 121px 300px 454px;
   }
 
   .first {
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 42vw 771px;
   }
 
   .first-container {
     height: 0.0005%;
-    width: 94%;
+    grid-column: 2;
+    width: 100%;
+    grid-row: 1;
     position: relative;
   }
 
@@ -592,13 +669,6 @@
     background-size: 100% 100%;
   }
 
-  .six,
-  .fourth,
-  .fifth {
-    width: 300%;
-    height: 270px;
-  }
-
   .five-dropup-container:hover .dropup_5.Desktop {
     display: flex;
     flex-direction: column;
@@ -606,33 +676,32 @@
   }
 
   .third {
-    width: 800px;
-    height: 465px;
+    grid-column: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 
   .dropup_1 {
     width: 100%;
     position: absolute;
     opacity: 0.98;
-    top: 197px;
+    top: 105px;
+    z-index: 1;
+  }
+
+  #projectcontainer {
+    display: flex;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1;
   }
 
   #Shape-third_ {
-    position: relative;
-    bottom: 14%;
+    float: left;
   }
 
   #Shape-third {
-    position: relative;
-    left: 89%;
-    height: 87.71px;
-    bottom: 0.7%;
-  }
-
-  #fourth-image {
-    position: relative;
-    right: 2.5%;
-    bottom: 3%;
+    float: right;
   }
 
   #first-image {
@@ -646,16 +715,18 @@
   }
 
   #second-image {
-    width: 465px;
+    width: 33vw;
+    height: 232px;
   }
 
   #second-geom {
-    width: 511px;
-    height: 350px;
+    width: 31vw;
+    height: 275px;
+    margin: 1vw;
   }
 
   .Works {
-    margin-top: 50%;
+    margin-top: 30%;
   }
 
   h1 {
@@ -663,13 +734,17 @@
     margin-bottom: 0%;
   }
 
-  .fourth-drop-container:hover .dropup_4 {
+  .fourth-drop-container:hover .dropup_4.Desktop {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .third-dropup-container:hover .dropup_3 {
+  .third-container {
+    position: relative;
+  }
+
+  .third-dropup-container:hover .dropup_3.Desktop {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -699,41 +774,102 @@
     width: 99vmax;
     z-index: 30;
     height: 138vmax;
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 208px;
   }
 
   .popup-conatiner {
     background-color: white;
-    width: 79rem;
-    position: absolute;
-    top: 4vmax;
-    height: 129vmax;
+    width: 86vw;
+    height: 108rem;
+    position: relative;
   }
 
   h5 {
     font-size: 50px;
-    left: -283px;
+    position: static;
+    order: -1;
+  }
+
+  .cancel-3,
+  .cancel-1,
+  .cancel-2,
+  .cancel-4,
+  .cancel-5,
+  .cancel-6 {
+    order: -3;
   }
 
   .popupimgmac {
-    width: 91%;
+    width: 79vw;
+    order: 1;
+    height: 72vh;
+  }
+
+  #red-point {
+    width: 10px;
+    height: 10px;
+    border: solid;
+    border-color: red;
+    border-radius: 16px;
+    background-color: red;
+    position: absolute;
+    top: 14px;
+    left: 27px;
+    box-shadow: 1px 1px 20px 1px red;
   }
 
   .img-list img {
-    width: 293px;
-    margin-left: -7px;
+    width: 20.3vw;
+    margin-left: 2px;
     margin-top: -8px;
-    position: relative;
-    left: 2vh;
+  }
+
+  @keyframes example {
+    from {
+      width: 207.86px;
+      position: static;
+      z-index: initial;
+      border: none;
+    }
+
+    to {
+      position: absolute;
+      left: -123px;
+      z-index: 1;
+      border-radius: 16px;
+      border-width: 0.5px;
+      border: solid;
+      top: -35px;
+      width: 188px;
+    }
+  }
+
+  .choosenImage {
+    position: absolute;
+    left: -123px;
+    z-index: 1;
+    border-radius: 8px;
+    box-shadow: 0 1px 20px 15px;
+    border-width: 0.5px;
+    border: solid;
+    top: -35px;
+    width: 188px;
+    animation-name: example;
+    animation-duration: 0.25s;
+  }
+
+  .img-list {
+    order: 2;
   }
 
   .first-buttons {
-    width: 72rem;
-    margin-bottom: -89px;
-    margin-top: -3vmax;
+    width: 44rem;
+    margin-bottom: 27px;
+    justify-content: center;
+    order: -1;
   }
 
   .first-buttons button {
@@ -742,22 +878,10 @@
     padding: 16px;
   }
 
-  .vector-1 {
-    width: 3vmax;
-    top: 76vh;
-    right: 88vh;
-  }
-
-  .vector-2 {
-    width: 3vmax;
-    top: 64vh;
-    left: 88vh;
-  }
-
   .Works p {
-    margin-left: 19rem;
-    margin-right: 19rem;
-    margin-top: 3rem;
+    text-align: center;
+    margin: 45px;
+    order: 3;
   }
 
   .popup-2 {
@@ -765,7 +889,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 140vmax;
+    height: 138vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -775,9 +899,9 @@
   .popup-3 {
     background-color: #1a2236;
     opacity: 0.98;
-    width: 99vmax;
+    width: 73vmax;
     z-index: 30;
-    height: 140vmax;
+    height: 147vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -789,8 +913,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 140vmax;
-    position: absolute;
+    height: 138vmax;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -802,7 +925,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 140vmax;
+    height: 138vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -815,7 +938,7 @@
     opacity: 0.98;
     width: 99vmax;
     z-index: 30;
-    height: 140vmax;
+    height: 138vmax;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -830,5 +953,30 @@
   .main-container {
     display: flex;
     justify-content: center;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  #third-image {
+    width: 100%;
+    height: 33vw;
+  }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1227px) {
+  .first {
+    grid-template-columns: 50vw 510px;
+  }
+
+  .container_2 {
+    display: grid;
+    grid-template-columns: 56vw 9vw 356px;
+    grid-template-rows: 212px 87px 121px 214px 454px;
+  }
+
+  .dropup_1 {
+    top: 4px;
   }
 }

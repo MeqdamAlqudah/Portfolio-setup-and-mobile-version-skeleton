@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-setup-and-mobile-version-skeleton",
+  "name": "Portfolio-setup-and-mobile-version-skeleton",
   "version": "1.0.0",
   "description": "Portfolio setup and mobile version skeleton",
   "main": "index.js",
@@ -59,10 +59,18 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.0.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton/issues"
   }
 }
