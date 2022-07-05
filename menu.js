@@ -1,6 +1,15 @@
 /* eslint-disable func-names */
 const lastWidth = document.querySelector('body').style.width;
 const lastHeight = document.querySelector('body').style.height;
+const redpoint = document.querySelector('#red-point');
+let myInterval = setInterval(() => {
+  if (redpoint.classList.contains('hidden')) {
+    redpoint.classList.remove('hidden');
+  } else {
+    redpoint.classList.add('hidden');
+  }
+}, 1000);
+
 /* function of calls we will make */
 const callsClose = function () {
   document.getElementsByClassName('About-myself')[0].classList.remove('hidden'); // Show the about myself
@@ -197,30 +206,6 @@ document
   .getElementsByClassName('cancel-6')[0]
   .addEventListener('click', closePopup6);
 
-// Change the image in the popup window
-let currentImage = 0;
-
-const changeScreeshoutIncrease = (currentPopup) => {
-  if (currentImage > 4) {
-    currentImage = -1;
-  }
-  document.querySelector(`.popup-${currentPopup + 1} .popupimgmac`).setAttribute('src', storeObj[currentPopup + 1].featuredImg[currentImage >= 3 ? currentImage = 0 : currentImage += 1]);
-  for (let i = 1; i <= 4; i++) {
-    document.querySelector(`.popup-${currentPopup + 1} .pimg-${i} img`).classList.remove('choosenImage');
-  }
-  document.querySelector(`.popup-${currentPopup + 1} .pimg-${currentImage + 1} img`).classList.add('choosenImage');
-};
-const changeScreeshoutDecrease = (currentPopup) => {
-  if (currentImage < 0) {
-    currentImage = 5;
-  }
-
-  document.querySelector(`.popup-${currentPopup + 1} .popupimgmac`).setAttribute('src', storeObj[currentPopup + 1].featuredImg[currentImage <= 0 ? currentImage = 3 : currentImage -= 1]);
-  for (let i = 1; i <= 4; i++) {
-    document.querySelector(`.popup-${currentPopup + 1} .pimg-${i} img`).classList.remove('choosenImage');
-  }
-  document.querySelector(`.popup-${currentPopup + 1} .pimg-${currentImage + 1} img`).classList.add('choosenImage');
-};
 // Storing the Data
 
 const storeObj = {
@@ -305,6 +290,32 @@ const storeObj = {
   },
 };
 const objValues = Object.keys(storeObj);
+
+// Change the image in the popup window
+let currentImage = 0;
+
+const changeScreeshoutIncrease = (currentPopup) => {
+  if (currentImage > 4) {
+    currentImage = -1;
+  }
+  document.querySelector(`.popup-${currentPopup + 1} .popupimgmac`).setAttribute('src', storeObj[currentPopup + 1].featuredImg[currentImage >= 3 ? currentImage = 0 : currentImage += 1]);
+  for (let i = 1; i <= 4; i += 1) {
+    document.querySelector(`.popup-${currentPopup + 1} .pimg-${i} img`).classList.remove('choosenImage');
+  }
+  document.querySelector(`.popup-${currentPopup + 1} .pimg-${currentImage + 1} img`).classList.add('choosenImage');
+};
+const changeScreeshoutDecrease = (currentPopup) => {
+  if (currentImage < 0) {
+    currentImage = 5;
+  }
+
+  document.querySelector(`.popup-${currentPopup + 1} .popupimgmac`).setAttribute('src', storeObj[currentPopup + 1].featuredImg[currentImage <= 0 ? currentImage = 3 : currentImage -= 1]);
+  for (let i = 1; i <= 4; i += 1) {
+    document.querySelector(`.popup-${currentPopup + 1} .pimg-${i} img`).classList.remove('choosenImage');
+  }
+  document.querySelector(`.popup-${currentPopup + 1} .pimg-${currentImage + 1} img`).classList.add('choosenImage');
+};
+
 for (let i = 0; i < objValues.length; i += 1) {
   document.querySelector(`.popup-${i + 1} p`).textContent = storeObj[i + 1].description;
   document.querySelector(`.popup-${i + 1} h5`).textContent = storeObj[i + 1].name;
@@ -329,7 +340,7 @@ for (let i = 0; i < objValues.length; i += 1) {
   document.querySelector(`.popup-${i + 1} .vector-1`).addEventListener('click', () => changeScreeshoutDecrease(i));
   document.querySelector(`.popup-${i + 1} .vector-2`).addEventListener('click', () => changeScreeshoutIncrease(i));
   document.querySelector(`.popup-${i + 1} .third-buttons a`).addEventListener('click', (e) => {
-    className = e.path['5'].classList.value;
+    const className = e.path['5'].classList.value;
     if (className[className.length - 1] === '1') {
       document.getElementsByClassName(`popup-${className[className.length - 1]}`)[0].classList.add('hidden');
       callsClose();
@@ -343,7 +354,7 @@ for (let i = 0; i < objValues.length; i += 1) {
     }
   });
   document.querySelector(`.popup-${i + 1} .third-buttons li:last-child a`).addEventListener('click', (e) => {
-    className = e.path['5'].classList.value;
+    const className = e.path['5'].classList.value;
 
     if (className[className.length - 1] === '6') {
       document.getElementsByClassName(`popup-${className[className.length - 1]}`)[0].classList.add('hidden');
@@ -388,18 +399,12 @@ const errorPresent = function (e) {
   }
 };
 
-const hover = function () {
-  if (location.hash === '#headline') {
-    document.querySelector('.Desktop-head #head-1 a::after').style.display = 'block';
-  }
-};
-window.addEventListener('scroll', (e) => {
+window.addEventListener('scroll', () => {
   const headlineRect = document.querySelector('.headline').getBoundingClientRect();
   const portfolio = document.querySelector('.Works').getBoundingClientRect();
   const About = document.querySelector('.About-myself').getBoundingClientRect();
   const contact = document.querySelector('footer').getBoundingClientRect();
 
-  const yCoordinate = window.pageYOffset;
   if (headlineRect.y + 500 >= 0) {
     document.querySelector('#head-1').classList.add('hover');
     document.querySelector('#head-2').classList.remove('hover');
@@ -435,19 +440,3 @@ if (!document.getElementById('name').value && (localStorage.length > 0)) {
 if (!document.getElementById('Message').value && (localStorage.length > 0)) {
   document.getElementByfId('Message').value = formId.messageId;
 }
-
-const popupArray = ['first', 'second', 'third', 'fourth', 'fifth', 'six'];
-// for(i=0;i<= 5;i++){
-//   document.querySelector(`.dropup_${i+1}`).style.width = `${document.querySelector(`#${popupArray[i]}-image`).clientWidth}px`
-//  console.log(`#${popupArray[i]}-image`,document.querySelector(`#${popupArray[i]}-image`).clientWidth);
-//   // document.querySelector(`.dropup_${i+1}`).style.width = "2px"
-// }
-// console.log(popupArray)
-const redpoint = document.querySelector('#red-point');
-myInterval = setInterval(() => {
-  if (redpoint.classList.contains('hidden')) {
-    redpoint.classList.remove('hidden');
-  } else {
-    redpoint.classList.add('hidden');
-  }
-}, 1000);

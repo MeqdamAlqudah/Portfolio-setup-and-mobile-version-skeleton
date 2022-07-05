@@ -109,9 +109,11 @@ h3 {
   border-color: black;
   padding: 4px;
 }
+
 #RubyonRails {
   width: 71px;
 }
+
 .start-collaboration {
   width: 80%;
   height: 81px;
@@ -367,8 +369,8 @@ h3 {
   margin: auto;
   border-color: transparent;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .get-my-cv:hover,
@@ -377,6 +379,7 @@ h3 {
   color: #1a2236;
   border-color: transparent;
 }
+
 /* prettier-ignore */
 .first-about p {
   font-size: 20px;
@@ -669,6 +672,7 @@ footer {
   border-bottom: 2px solid #1a2236;
   transition: border 0.5s;
 }
+
 .Desktop-head a:hover,
 .Desktop-head a:active {
   border-bottom: 2px solid #1a2236;
@@ -830,9 +834,16 @@ footer {
   padding-right: 45px;
   margin-bottom: -6px;
 }
+
+.img-list img {
+  width: 72px;
+  margin-left: -2px;
+}
+
 .popup-3 .img-list img {
   height: 64px;
 }
+
 .first-buttons li {
   margin-right: 10px;
 }
@@ -862,24 +873,20 @@ h5 {
 
 .img-list {
   list-style: none;
-    display: flex;
-    align-items: center;
-    padding-right: 28px;
-    margin-top: 0;
-    margin-right: 0;
+  display: flex;
+  align-items: center;
+  padding-right: 28px;
+  margin-top: 0;
+  margin-right: 0;
 }
 
-.img-list img {
-  width: 72px;
-  margin-left: -2px;
-}
 .popup-4 .img-list img,
-  .popup-5 .img-list img,
-  .popup-6 .img-list img ,
-  .popup-3 .img-list img,
-  .popup-2 .img-list img  {
-    height: 142px;
-  }
+.popup-5 .img-list img,
+.popup-6 .img-list img,
+.popup-3 .img-list img,
+.popup-2 .img-list img {
+  height: 142px;
+}
 
 .vector-1 {
   z-index: 15;
@@ -1042,4 +1049,3 @@ h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 10px;
 }
-
