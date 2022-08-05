@@ -12,6 +12,7 @@ let myInterval = setInterval(() => {
 
 /* function of calls we will make */
 const callsClose = function () {
+
   document.getElementsByClassName('About-myself')[0].classList.remove('hidden'); // Show the about myself
   document.getElementsByClassName('form')[0].classList.remove('hidden'); // Show the form section
   document.getElementsByClassName('headline')[0].classList.remove('hidden'); // Show the headline
@@ -19,17 +20,20 @@ const callsClose = function () {
   document.getElementsByClassName('geom')[0].classList.remove('hidden'); // Show the about myself
   document.querySelector('body').style.width = lastWidth; // return the last width of the body
   document.querySelector('body').style.height = lastHeight;
-  document.getElementsByClassName('Works')[0].style.display = 'block';
   document.querySelector('body').style.backgroundColor = 'white';
   document.querySelector('.container_2').style.justifyItems = 'initial';
   document.querySelector('#red-point').classList.remove('hidden');
+  document.getElementsByClassName('Works')[0].style.display = 'block';
   myInterval = setInterval(() => {
     if (redpoint.classList.contains('hidden')) {
       redpoint.classList.remove('hidden');
+
     } else {
       redpoint.classList.add('hidden');
     }
+
   }, 1000);
+  setTimeout( ()=>{ location.replace("#Works")},10);
 };
 
 const callsOpen = function () {
@@ -44,6 +48,8 @@ const callsOpen = function () {
   document.querySelector('body').style.backgroundColor = '#1a2236';
   document.querySelector('.container_2').style.justifyItems = 'center';
   document.querySelector('#red-point').classList.add('hidden');
+  window.location.href = "#";
+
   clearInterval(myInterval);
 };
 /* close and open the menu */
@@ -71,11 +77,16 @@ const openMenu = function () {
 const openPopup1 = function () {
   callsOpen();
   document.getElementsByClassName('popup-1')[0].classList.remove('hidden'); // Show popup-1
+
 };
 
 const closePopup1 = function () {
+
   document.getElementsByClassName('popup-1')[0].classList.add('hidden');
+  location.replace("#Works");
+
   callsClose();
+
 };
 
 // popup2
@@ -86,8 +97,11 @@ const openPopup2 = function () {
 };
 
 const closePopup2 = function () {
+  location.replace("#Works");
+
   document.getElementsByClassName('popup-2')[0].classList.add('hidden');
   callsClose();
+
 };
 
 // popup3
@@ -98,20 +112,29 @@ const openPopup3 = function () {
 };
 
 const closePopup3 = function () {
+  location.replace("#Works");
+
   document.getElementsByClassName('popup-3')[0].classList.add('hidden');
+
   callsClose();
+
+
 };
 
 // popup4
 
 const openPopup4 = function () {
+
   document.getElementsByClassName('popup-4')[0].classList.remove('hidden'); // Show popup-4
   callsOpen();
 };
 
 const closePopup4 = function () {
+  location.replace("#Works");
+
   document.getElementsByClassName('popup-4')[0].classList.add('hidden');
   callsClose();
+
 };
 
 // popup5
@@ -122,8 +145,11 @@ const openPopup5 = function () {
 };
 
 const closePopup5 = function () {
+  location.replace("#Works");
+
   document.getElementsByClassName('popup-5')[0].classList.add('hidden');
   callsClose();
+
 };
 
 // popup6
@@ -134,8 +160,12 @@ const openPopup6 = function () {
 };
 
 const closePopup6 = function () {
+  location.replace("#Works");
+
   document.getElementsByClassName('popup-6')[0].classList.add('hidden');
   callsClose();
+  window.location.href = "#Works";
+
 };
 const xButton = function (x) {
   if (x.keyCode === 88) {
@@ -174,7 +204,9 @@ document.addEventListener('keydown', xButton);
 document.getElementById('See1').addEventListener('click', openPopup1);
 document
   .getElementsByClassName('cancel-1')[0]
-  .addEventListener('click', closePopup1);
+  .addEventListener('click',()=>{
+    closePopup1()
+});
 // second
 document.getElementById('See2').addEventListener('click', openPopup2);
 document.getElementById('SeeD2').addEventListener('click', openPopup2);
