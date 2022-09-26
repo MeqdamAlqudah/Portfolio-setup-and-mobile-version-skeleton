@@ -229,17 +229,17 @@ document
 
 const storeObj = {
   1: {
-    name: 'Book-mechanic',
-    description: 'Book-mechanic is a web appliacation that allow the user to choose a car and set an appointment for each one to fix it and attach it to a mechanic and a city name',
+    name: 'MessageMeApp',
+    description: 'MessageMeApp is a full stack web  appliacation that allow the user to make chat with peoplo who signed in ',
     featuredImg: [
       'img/Popup-menu/popup-1/1.png',
       'img/Popup-menu/popup-1/2.png',
       'img/Popup-menu/popup-1/3.png',
       'img/Popup-menu/popup-1/4.png',
     ],
-    technologies: ['HTML/Css', 'Ruby on Rails', 'JavaScript'],
-    live: '#',
-    source: 'https://github.com/MeqdamAlqudah/Book-mechanic',
+    technologies: ['HTML/Css', 'Ruby on Rails', 'React.js'],
+    live: 'https://mysite-s43s.onrender.com/',
+    source: 'https://github.com/MeqdamAlqudah/MessageMeApp',
   },
   2: {
     name: 'CineFlix',
