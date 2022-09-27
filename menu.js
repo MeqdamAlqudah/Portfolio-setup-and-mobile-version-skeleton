@@ -230,7 +230,7 @@ document
 const storeObj = {
   1: {
     name: 'MessageMeApp',
-    description: 'MessageMeApp is a full stack web  appliacation that allow the user to make chat with peoplo who signed in ',
+    description: 'MessageMeApp is a full stack web  appliacation that allow the user to make chat with peoplo who signed in to test this app use (Johndo) as a username and (12345654321) as a password ',
     featuredImg: [
       'img/Popup-menu/popup-1/1.png',
       'img/Popup-menu/popup-1/2.png',
