@@ -59,10 +59,6 @@ https://meqdamalqudah.github.io/Portfolio-setup-and-mobile-version-skeleton/
 - Clone the repo with the command: `git clone (copied link)`; like so: `git clone https://github.com/MeqdamAlqudah/Portfolio-setup-and-mobile-version-skeleton.git`
 - On the terminal, navigate into the directory like so: `cd Portfolio-setup-and-mobile-version-skeleton`
 
-### Prerequisites
-
-Chrome or any explorer
-
 ## Authors
 
 👤 **Meqdam Al-qudah**
